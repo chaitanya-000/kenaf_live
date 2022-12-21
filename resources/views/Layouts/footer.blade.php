@@ -21,7 +21,7 @@
     
  
  <!--  footer Part Start  -->
- <footer class="footer">
+ <footer class="footer" >
       <div class="footer_container">
         <div class="footer_container_top">
           <img

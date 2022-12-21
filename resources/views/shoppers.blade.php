@@ -166,26 +166,25 @@ environmental benefits, and rewards.
         <div class="slide_active">
         <section id="about_part" style="background-color :  #FFF7EA;" >
           <div class="container">
-            <div class="WhiteContainer row"  style="background-color : white; border-radius:30px" >
-              <div class="col-sm-6 visible-xs">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
+              <div class="col-sm-6 visible-xs" style="margin-left:10%">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p >
-                    We love building and rebuilding brands through our specific
-                    skills. Using colour, fonts, and illustration, we brand
-                    companies in a way they will never forget.We love building and
-                    rebuilding brands through our specific skills. Using colour,
-                    fonts, and illustration, we brand companies in a way they will
-                    never forget...
+                  <h2 ><span >  1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code.  </span></h2>
+                  <p  >
+                   <!-- 1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. -->
                   </p>
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>1.Scan your   </span>Products</h2>
-                  <p style="margin-left:55px;">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
-                  </p>
+                <h2 style="margin-left :10%"><span >  1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. </span></h2>
+                  <!-- <p > -->
+                   <!-- 1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. -->
+                  <!-- </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -199,28 +198,27 @@ environmental benefits, and rewards.
           </div>
        </section>
 
-       <section id="about_part"   >
+       <section id="about_part"   style="background-color :  #b8d6c5;">
           <div class="container">
-            <div class="WhiteContainer row"  style="background-color :  #b8d6c5; border-radius:30px">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p>
-                    We love building and rebuilding brands through our specific
-                    skills. Using colour, fonts, and illustration, we brand
-                    companies in a way they will never forget.We love building and
-                    rebuilding brands through our specific skills. Using colour,
-                    fonts, and illustration, we brand companies in a way they will
-                    never forget...
-                  </p>
+                  <h2 style="margin-left:3%"><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app. </span></h2>
+                  <!-- <p>
+                  2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app.
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your   </span>Products</h2>
-                  <p style="margin-left:55px;" >
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
-                  </p>
+                <h2 style="margin-left:20%" ><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app. </span></h2>
+                  <!-- <p>
+                  2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app.
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -233,29 +231,31 @@ environmental benefits, and rewards.
             </div>
           </div>
        </section>
-       <section id="about_part"  style="background-color :  white;" >
+       <section id="about_part"  style="background-color :  #FBF2FF;" >
           <div class="container">
-            <div class="WhiteContainer row"  style="background-color :  #FBF2FF
-; border-radius:30px">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p >
-                    We love building and rebuilding brands through our specific
-                    skills. Using colour, fonts, and illustration, we brand
-                    companies in a way they will never forget.We love building and
-                    rebuilding brands through our specific skills. Using colour,
-                    fonts, and illustration, we brand companies in a way they will
-                    never forget...
-                  </p>
+                  <h2><span> 3. Once you have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase.  </span></h2>
+                  <!-- <p>
+                    3. Once you have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase.
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your </span>Products</h2>
-                  <p style="margin-left:55px;">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
-                  </p>
+                <h2><span> 3. Once  you  have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase. </span></h2>
+                  <!-- <p>
+                    3. Once you have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase.
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -274,6 +274,8 @@ environmental benefits, and rewards.
             <i class="fa fa-angle-right banner_arrow_right"></i>
         </div>
     </section>
+
+    <!-- Demo End -->
 
     
 

@@ -31,7 +31,7 @@ access receipts. Our mission is to provide a simple, convenient, and secure way 
 store and organize their receipts digitally, eliminating the need for cluttered paper receipts.
                 </p>
                 <h5 style="margin-bottom:20px;" >Download now and join the digital receipt revolution!</h5>
-                <button type="button" style="margin-bottom:20px;"><img src="./images/AppStoreDownloadButton.png" alt="" ></button>
+                <button type="button" style="margin-bottom:20px;"><img class="DownloadBtn AppStore" src="./images/AppStoreDownloadButton.png" alt="" ></button>
                 <button type="button"><img src="./images/PlaystoreDownloadButton.png" alt=""></button>
               </div>
             </div>

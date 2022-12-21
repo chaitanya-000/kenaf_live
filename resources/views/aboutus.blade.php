@@ -149,10 +149,10 @@ receipt without printing it out.
                     <div class="team_members">
                         <div class="col-sm-4 col-xs-12">
                             <div class="team_memb">
-                                <img src="images/team-1.jpg" alt="Team Member">
+                                <img src="images/ChaitanyaJoshi.jpg" alt="Team Member">
                                 <div class="team_memb_info">
-                                    <h3>Robin Topper</h3>
-                                    <p>Creative Director</p>
+                                    <h3>Chaitanya Joshi</h3>
+                                    <p>Front-End | React Native Developer    </p>
                                 </div>
                                 <div class="team_social">
                                     <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -166,6 +166,20 @@ receipt without printing it out.
                                 <img src="images/team-2.jpg" alt="Team Member">
                                 <div class="team_memb_info">
                                     <h3>Alex Roren</h3>
+                                    <p>Creative Director</p>
+                                </div>
+                                <div class="team_social">
+                                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" target="_blank"><i class="fa fa-skype"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="team_memb">
+                                <img src="images/team-3.jpg" alt="Team Member">
+                                <div class="team_memb_info">
+                                    <h3>Steve Jobs</h3>
                                     <p>Creative Director</p>
                                 </div>
                                 <div class="team_social">
