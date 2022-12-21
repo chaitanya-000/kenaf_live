@@ -78,7 +78,7 @@ environmental benefits, and rewards.
           <div class="col-sm-6 hidden-xs">
             <div class="about_right section_head">
               <h2><span>For </span>Shoppers</h2>
-              <p>
+              <p style="font-size:20px;line-height:30px; ">
               As a consumer, you can benefit from using Kenaf&#39;s digital receipt system. With our app, you can
 easily access and store your receipts digitally, making it easier to manage tax claims and returns. No
 need to carry physical receipts! Digital receipts are also more environmentally friendly, reducing
@@ -166,11 +166,11 @@ environmental benefits, and rewards.
         <div class="slide_active">
         <section id="about_part" style="background-color :  #FFF7EA;" >
           <div class="container">
-            <div class="WhiteContainer row">
+            <div class="WhiteContainer row"  style="background-color : white; border-radius:30px" >
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
                   <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <p >
                     We love building and rebuilding brands through our specific
                     skills. Using colour, fonts, and illustration, we brand
                     companies in a way they will never forget.We love building and
@@ -182,8 +182,8 @@ environmental benefits, and rewards.
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                <h2><span>1.Scan your   </span>Products</h2>
+                  <p style="margin-left:55px;">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
                   </p>
                 </div>
@@ -199,9 +199,9 @@ environmental benefits, and rewards.
           </div>
        </section>
 
-       <section id="about_part"  style="background-color :  skyblue;" >
+       <section id="about_part"   >
           <div class="container">
-            <div class="WhiteContainer row">
+            <div class="WhiteContainer row"  style="background-color :  #b8d6c5; border-radius:30px">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
                   <h2><span>Scan your   </span>Products</h2>
@@ -218,7 +218,7 @@ environmental benefits, and rewards.
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
                 <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <p style="margin-left:55px;" >
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
                   </p>
                 </div>
@@ -235,11 +235,12 @@ environmental benefits, and rewards.
        </section>
        <section id="about_part"  style="background-color :  white;" >
           <div class="container">
-            <div class="WhiteContainer row">
+            <div class="WhiteContainer row"  style="background-color :  #FBF2FF
+; border-radius:30px">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
                   <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <p >
                     We love building and rebuilding brands through our specific
                     skills. Using colour, fonts, and illustration, we brand
                     companies in a way they will never forget.We love building and
@@ -252,7 +253,7 @@ environmental benefits, and rewards.
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
                 <h2><span>Scan your </span>Products</h2>
-                  <p>
+                  <p style="margin-left:55px;">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
                   </p>
                 </div>

@@ -71,7 +71,7 @@ the environment.
           <div class="col-sm-6 hidden-xs">
             <div class="about_right section_head">
               <h2><span>About </span>Kenaf</h2>
-              <p>
+              <p style="font-size:20px;line-height:30px; ">
               KENEF was created in May 2022 with a mission to help the environment by reducing the
 number of paper receipts produced each year. According to the Environmental Protection
 Agency, 250,000 trees are cut down annually to produce paper receipts in Europe! By
@@ -98,20 +98,22 @@ the environment.
             <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs" style="margin-left:10%">
                 <div class="about_right section_head">
-                  <h2><span>1.Scan your   </span>Products</h2>
+                  <h2 ><span >  1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code.  </span></h2>
                   <p  >
-                   1. QR code is already installed at the till, once you have paid for your purchase, The merchant
-will send the receipt to the QR code.
+                   <!-- 1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. -->
                   </p>
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>1 .Scan your   </span>Products</h2>
-                  <p >
-                   1. QR code is already installed at the till, once you have paid for your purchase, The merchant
-will send the receipt to the QR code.
-                  </p>
+                <h2 style="margin-left :10%"><span >  1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. </span></h2>
+                  <!-- <p > -->
+                   <!-- 1. QR code is already installed at the till, once you have paid for your purchase, The merchant
+will send the receipt to the QR code. -->
+                  <!-- </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -125,13 +127,13 @@ will send the receipt to the QR code.
           </div>
        </section>
 
-       <section id="about_part"  style="background-color : #27AE60;
+       <section id="about_part"   style="background-color :  #b8d6c5; border-radius:30px";
 ;" >
           <div class="container">
             <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
-                  <h2><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+                  <h2 style="margin-left:3%"><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
 app. </span></h2>
                   <!-- <p>
                   2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
@@ -141,7 +143,7 @@ app.
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+                <h2 style="margin-left:20%" ><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
 app. </span></h2>
                   <!-- <p>
                   2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
@@ -267,16 +269,17 @@ claim at your next purchase.
         <div class="WhiteContainer row">
           <div class="col-sm-6 visible-xs">
             <div class="about_right section_head">
-              <h2><span>For  </span>Shoppers</h2>
-              <p>
-                We love building and rebuilding brands through our specific
-                skills. Using colour, fonts, and illustration, we brand
-                companies in a way they will never forget.We love building and
-                rebuilding brands through our specific skills. Using colour,
-                fonts, and illustration, we brand companies in a way they will
-                never forget...
+              <h2><span>For  </span>Consumers</h2>
+              <p >
+              As a consumer, you can benefit from using Kenaf&#39;s digital receipt system. With our app, you can
+easily access and store your receipts digitally, making it easier to manage tax claims and returns. No
+need to carry physical receipts! Digital receipts are also more environmentally friendly, reducing
+paper waste and helping to create a more sustainable future. Plus, when you choose paperless
+receipts with Kenaf, you can earn loyalty points that you can redeem on your next purchase. Overall,
+using digital receipts with Kenaf is a smart choice for you as a consumer, offering convenience,
+environmental benefits, and rewards.
               </p>
-              <img src="images/Knowmore.png" alt="" s>
+              <img src="images/Knowmore.png" alt="" class="image-btn">
             </div>
           </div>
           <div class="col-sm-6">
@@ -288,11 +291,17 @@ claim at your next purchase.
           </div>
           <div class="col-sm-6 hidden-xs">
             <div class="about_right section_head">
-              <h2><span>For  </span>Shoppers</h2>
-              <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
+              <h2><span>For  </span>Consumers</h2>
+              <p style="font-size:20px;line-height:30px">
+              As a consumer, you can benefit from using Kenaf&#39;s digital receipt system. With our app, you can
+easily access and store your receipts digitally, making it easier to manage tax claims and returns. No
+need to carry physical receipts! Digital receipts are also more environmentally friendly, reducing
+paper waste and helping to create a more sustainable future. Plus, when you choose paperless
+receipts with Kenaf, you can earn loyalty points that you can redeem on your next purchase. Overall,
+using digital receipts with Kenaf is a smart choice for you as a consumer, offering convenience,
+environmental benefits, and rewards.
               </p>
-              <img src="images/Knowmore.png" alt="" >
+              <img src="images/Knowmore.png" alt=""  class="image-btn">
             </div>
           </div>
         </div>
@@ -317,7 +326,7 @@ for your business. By switching to Kenaf&#39;s digital receipt system, you can s
 customer satisfaction, and do your part to protect the environment.
                 
               </p>
-              <img src="images/Knowmore.png" alt="" s>
+              <img src="images/Knowmore.png" alt=""  class="image-btn">
             </div>
           </div>
           <div class="col-sm-6 hidden-xs">
@@ -325,7 +334,7 @@ customer satisfaction, and do your part to protect the environment.
               <h2><span>For  </span>Retailers</h2>
              
 
-              <p>
+              <p style="font-size:20px;line-height:30px">
               As a retailer, you can benefit from switching to Kenaf&#39;s digital receipt system. Our app allows your
 customers to easily access and store their receipts digitally, increasing customer satisfaction and
 simplifying returns and exchanges. Digital receipts also have a positive environmental impact by
@@ -336,7 +345,7 @@ cost of printing receipts on paper can quickly add up, making digital receipts a
 for your business. By switching to Kenaf&#39;s digital receipt system, you can save cost, improve
 customer satisfaction, and do your part to protect the environment.
               </p>
-              <img src="images/Knowmore.png" alt="" s>
+              <img src="images/Knowmore.png" alt=""  class="image-btn">
             </div>
           </div>
           <div class="col-sm-6" >
@@ -365,7 +374,7 @@ h1 {text-align: center;}
     <section id="EnquiryPart">
       <div class="container">
         <div class="WhiteContainer row">
-        <h1><span>Request a</span><b> Demo</b></h1>
+        <h1 style="margin:2% 0%"><span>Request a</span><b> Demo</b></h1>
           <div class="col-sm-6 visible-xs">
           
           <div class="about_right section_head">
