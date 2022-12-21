@@ -30,8 +30,8 @@
 access receipts. Our mission is to provide a simple, convenient, and secure way for users to
 store and organize their receipts digitally, eliminating the need for cluttered paper receipts.
                 </p>
-                <h5>Download now and join the digital receipt revolution!</h5>
-                <button type="button"><img src="./images/AppStoreDownloadButton.png" alt="" ></button>
+                <h5 style="margin-bottom:20px;" >Download now and join the digital receipt revolution!</h5>
+                <button type="button" style="margin-bottom:20px;"><img src="./images/AppStoreDownloadButton.png" alt="" ></button>
                 <button type="button"><img src="./images/PlaystoreDownloadButton.png" alt=""></button>
               </div>
             </div>
@@ -95,11 +95,11 @@ the environment.
         <div class="slide_active">
         <section id="about_part" style="background-color :  #FFF7EA;" >
           <div class="container">
-            <div class="WhiteContainer row">
-              <div class="col-sm-6 visible-xs">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
+              <div class="col-sm-6 visible-xs" style="margin-left:10%">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <h2><span>1.Scan your   </span>Products</h2>
+                  <p  >
                    1. QR code is already installed at the till, once you have paid for your purchase, The merchant
 will send the receipt to the QR code.
                   </p>
@@ -107,8 +107,8 @@ will send the receipt to the QR code.
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                <h2><span>1 .Scan your   </span>Products</h2>
+                  <p >
                    1. QR code is already installed at the till, once you have paid for your purchase, The merchant
 will send the receipt to the QR code.
                   </p>
@@ -125,25 +125,28 @@ will send the receipt to the QR code.
           </div>
        </section>
 
-       <section id="about_part"  style="background-color :  skyblue;" >
+       <section id="about_part"  style="background-color : #27AE60;
+;" >
           <div class="container">
-            <div class="WhiteContainer row">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <h2><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app. </span></h2>
+                  <!-- <p>
                   2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
 app.
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                <h2><span> 2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
+app. </span></h2>
+                  <!-- <p>
                   2 .Open the camera on your phone to scan the QR code and receipt will appear on your kenaf
 app.
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -158,25 +161,29 @@ app.
        </section>
        <section id="about_part"  style="background-color :  white;" >
           <div class="container">
-            <div class="WhiteContainer row">
+            <div class="WhiteContainer row" style="background-color : white; border-radius:5%">
               <div class="col-sm-6 visible-xs">
                 <div class="about_right section_head">
-                  <h2><span>Scan your   </span>Products</h2>
-                  <p>
+                  <h2><span> 3. Once you have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase.  </span></h2>
+                  <!-- <p>
                     3. Once you have your receipt you can manage it for tax and returns, depending if the
 merchant has the reward option available you will be rewarded loyalty points that you can
 claim at your next purchase.
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6 hidden-xs">
                 <div class="about_right section_head">
-                <h2><span>Scan your </span>Products</h2>
-                  <p>
+                <h2><span> 3. Once  you  have your receipt you can manage it for tax and returns, depending if the
+merchant has the reward option available you will be rewarded loyalty points that you can
+claim at your next purchase. </span></h2>
+                  <!-- <p>
                     3. Once you have your receipt you can manage it for tax and returns, depending if the
 merchant has the reward option available you will be rewarded loyalty points that you can
 claim at your next purchase.
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div class="col-sm-6" >
@@ -285,7 +292,7 @@ claim at your next purchase.
               <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, dicta assumenda nulla aperiam laborum debitis tempore dolore aut atque perferendis voluptas magni fuga tempora unde ratione ipsum eveniet rem reprehenderit iure nisi, quo nihil ipsa fugiat et? Odit neque odio sunt mollitia enim explicabo hic autem molestiae sapiente soluta eligendi veritatis nisi tenetur similique ab earum voluptatibus aut qui at, unde atque aliquam nesciunt nemo quisquam. Fuga corrupti atque ex suscipit, sapiente quidem culpa ducimus quasi, eveniet, quisquam necessitatibus praesentium. Exercitationem voluptas incidunt nam, facilis accusamus omnis doloribus vero culpa rerum aspernatur! Dolor fugit dolore hic reprehenderit neque laboriosam qui.
               </p>
-              <img src="images/Knowmore.png" alt="" s>
+              <img src="images/Knowmore.png" alt="" >
             </div>
           </div>
         </div>
@@ -296,7 +303,7 @@ claim at your next purchase.
       <div class="container">
         <div class="WhiteContainer row" >
           <div class="col-sm-6 visible-xs">
-            <div class="about_right section_head">
+            <div class="about_right section_head" >
               <h2><span>For  </span>Retailers</h2>
               <p>
               As a retailer, you can benefit from switching to Kenaf&#39;s digital receipt system. Our app allows your
@@ -316,6 +323,9 @@ customer satisfaction, and do your part to protect the environment.
           <div class="col-sm-6 hidden-xs">
             <div class="about_right section_head">
               <h2><span>For  </span>Retailers</h2>
+             
+
+              <p>
               As a retailer, you can benefit from switching to Kenaf&#39;s digital receipt system. Our app allows your
 customers to easily access and store their receipts digitally, increasing customer satisfaction and
 simplifying returns and exchanges. Digital receipts also have a positive environmental impact by
@@ -325,8 +335,6 @@ for paper, ink, and other printing supplies, especially if you have a high volum
 cost of printing receipts on paper can quickly add up, making digital receipts a cost-effective choice
 for your business. By switching to Kenaf&#39;s digital receipt system, you can save cost, improve
 customer satisfaction, and do your part to protect the environment.
-
-              <p>
               </p>
               <img src="images/Knowmore.png" alt="" s>
             </div>
