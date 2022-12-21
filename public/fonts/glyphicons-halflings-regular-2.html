@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='noindex, follow' />
+<meta property="og:title" content="Tech Incent"/>
+<meta property="og:description" content="Software engineer blog"/>
+<meta property="og:image:alt" content="how-to-add-bootstrap-in-react"/>
+<meta property="og:image" content="https://techincent.com/wp-content/uploads/2022/05/how-to-add-bootstrap-in-react.jpg"/>
+<meta property="og:image:width" content="900"/>
+<meta property="og:image:height" content="506"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:type" content="article"/>
+<meta property="og:article:published_time" content="2022-05-22 16:29:02"/>
+<meta property="og:article:modified_time" content="2022-05-23 14:25:08"/>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tech Incent"/>
+<meta name="twitter:description" content="Software engineer blog"/>
+<meta name="twitter:image" content="https://techincent.com/wp-content/uploads/2022/05/how-to-add-bootstrap-in-react.jpg"/>
+<meta name="twitter:image:alt" content="how-to-add-bootstrap-in-react"/>
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Page not found &ndash; Tech Incent</title>
+	<meta property="og:site_name" content="Tech Incent" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://techincent.com/#website","url":"https://techincent.com/","name":"Tech Incent","description":"Software engineer blog","publisher":{"@id":"https://techincent.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://techincent.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://techincent.com/#organization","name":"Tech Incent","url":"https://techincent.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techincent.com/#/schema/logo/image/","url":"https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png","contentUrl":"https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png","width":230,"height":35,"caption":"Tech Incent"},"image":{"@id":"https://techincent.com/#/schema/logo/image/"},"sameAs":["https://www.instagram.com/techincent/","https://www.linkedin.com/company/techincent","https://www.pinterest.com/techincent/","http://facebook.com/techincentblog"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Tech Incent &raquo; Feed" href="https://techincent.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Tech Incent &raquo; Comments Feed" href="https://techincent.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/techincent.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://techincent.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:"0 0 1em 0"}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://techincent.com/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 32px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--huge: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://techincent.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='pencisc-css' href='https://techincent.com/wp-content/plugins/penci-framework/assets/css/single-shortcode.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-oswald-css' href='//fonts.googleapis.com/css?family=Oswald%3A400&#038;ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-themes-css' href='https://techincent.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.css?ver=4.8.12' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-toc-css' href='https://techincent.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=6.1.1' type='text/css' media='all' />
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container p.ez-toc-title {font-size: 125%;}div#ez-toc-container p.ez-toc-title {font-weight: 600;}div#ez-toc-container ul li {font-size: 90%;}div#ez-toc-container nav ul ul li ul li {font-size: %!important;}div#ez-toc-container {background: #edf6ff;border: 1px solid #aaaaaa;width: 100%;}div#ez-toc-container p.ez-toc-title {color: #111111;}div#ez-toc-container ul.ez-toc-list a {color: #99a1b3;}div#ez-toc-container ul.ez-toc-list a:hover {color: #000000;}div#ez-toc-container ul.ez-toc-list a:visited {color: #000000;}
+</style>
+<link rel='stylesheet' id='parent-style-css' href='https://techincent.com/wp-content/themes/pennews/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-style-child-css' href='https://techincent.com/wp-content/themes/pennews-child/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-font-awesome-css' href='https://techincent.com/wp-content/themes/pennews/css/font-awesome.min.css?ver=4.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-fonts-css' href='//fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CMukta+Vaani%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7COswald%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CTeko%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CMontserrat%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CPoppins%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CKarla%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%26subset%3Dcyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-portfolio-css' href='https://techincent.com/wp-content/themes/pennews/css/portfolio.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-recipe-css' href='https://techincent.com/wp-content/themes/pennews/css/recipe.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-review-css' href='https://techincent.com/wp-content/themes/pennews/css/review.css?ver=6.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='penci-style-css' href='https://techincent.com/wp-content/themes/pennews-child/style.css?ver=6.6.4' type='text/css' media='all' />
+<style id='penci-style-inline-css' type='text/css'>
+.penci-block-vc.style-title-13:not(.footer-widget).style-title-center .penci-block-heading {border-right: 10px solid transparent; border-left: 10px solid transparent; }.site-branding h1, .site-branding h2 {margin: 0;}.penci-schema-markup { display: none !important; }.penci-entry-media .twitter-video { max-width: none !important; margin: 0 !important; }.penci-entry-media .fb-video { margin-bottom: 0; }.penci-entry-media .post-format-meta > iframe { vertical-align: top; }.penci-single-style-6 .penci-entry-media-top.penci-video-format-dailymotion:after, .penci-single-style-6 .penci-entry-media-top.penci-video-format-facebook:after, .penci-single-style-6 .penci-entry-media-top.penci-video-format-vimeo:after, .penci-single-style-6 .penci-entry-media-top.penci-video-format-twitter:after, .penci-single-style-7 .penci-entry-media-top.penci-video-format-dailymotion:after, .penci-single-style-7 .penci-entry-media-top.penci-video-format-facebook:after, .penci-single-style-7 .penci-entry-media-top.penci-video-format-vimeo:after, .penci-single-style-7 .penci-entry-media-top.penci-video-format-twitter:after { content: none; } .penci-single-style-5 .penci-entry-media.penci-video-format-dailymotion:after, .penci-single-style-5 .penci-entry-media.penci-video-format-facebook:after, .penci-single-style-5 .penci-entry-media.penci-video-format-vimeo:after, .penci-single-style-5 .penci-entry-media.penci-video-format-twitter:after { content: none; }@media screen and (max-width: 960px) { .penci-insta-thumb ul.thumbnails.penci_col_5 li, .penci-insta-thumb ul.thumbnails.penci_col_6 li { width: 33.33% !important; } .penci-insta-thumb ul.thumbnails.penci_col_7 li, .penci-insta-thumb ul.thumbnails.penci_col_8 li, .penci-insta-thumb ul.thumbnails.penci_col_9 li, .penci-insta-thumb ul.thumbnails.penci_col_10 li { width: 25% !important; } }.site-header.header--s12 .penci-menu-toggle-wapper,.site-header.header--s12 .header__social-search { flex: 1; }.site-header.header--s5 .site-branding {  padding-right: 0;margin-right: 40px; }.penci-block_37 .penci_post-meta { padding-top: 8px; }.penci-block_37 .penci-post-excerpt + .penci_post-meta { padding-top: 0; }.penci-hide-text-votes { display: none; }.penci-usewr-review {  border-top: 1px solid #ececec; }.penci-review-score {top: 5px; position: relative; }.penci-social-counter.penci-social-counter--style-3 .penci-social__empty a, .penci-social-counter.penci-social-counter--style-4 .penci-social__empty a, .penci-social-counter.penci-social-counter--style-5 .penci-social__empty a, .penci-social-counter.penci-social-counter--style-6 .penci-social__empty a { display: flex; justify-content: center; align-items: center; }.penci-block-error { padding: 0 20px 20px; }@media screen and (min-width: 1240px){ .penci_dis_padding_bw .penci-content-main.penci-col-4:nth-child(3n+2) { padding-right: 15px; padding-left: 15px; }}.bos_searchbox_widget_class.penci-vc-column-1 #flexi_searchbox #b_searchboxInc .b_submitButton_wrapper{ padding-top: 10px; padding-bottom: 10px; }.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close { background: transparent; border-color: transparent; }@media (max-width: 768px) {.penci-sb2_con_sb1, .penci-sb2_sb1_con, .penci-sb1_con_sb2, .penci-sb1_sb2_con, .penci-con_sb1_sb2 { flex-direction: column; display: flex; }.penci-sb2_con_sb1 > .widget-area-2, .penci-sb2_sb1_con > .widget-area-2, .penci-sb1_con_sb2 > .widget-area-1, .penci-sb1_sb2_con > .widget-area-1, .penci-con_sb1_sb2 > .penci-wide-content { order: 1 !important;margin-top: 0; }.penci-sb2_con_sb1 > .penci-wide-content, .penci-sb2_sb1_con > .widget-area-1, .penci-sb1_con_sb2 > .penci-wide-content, .penci-sb1_sb2_con > .widget-area-2, .penci-con_sb1_sb2 > .widget-area-1 { order: 2 !important;margin-top: 20px; }.penci-sb2_con_sb1 > .widget-area-1, .penci-sb2_sb1_con > .penci-wide-content, .penci-sb1_con_sb2 > .widget-area-2, .penci-sb1_sb2_con > .penci-wide-content, .penci-con_sb1_sb2 > .widget-area-2 { order: 3 !important; }}h1, h2, h3, h4, h5, h6,.error404 .page-title,
+		.error404 .penci-block-vc .penci-block__title, .footer__bottom.style-2 .block-title {font-family: 'Poppins', sans-serif}h1, h2, h3, h4, h5, h6,.error404 .page-title,
+		 .error404 .penci-block-vc .penci-block__title, .product_list_widget .product-title, .footer__bottom.style-2 .block-title {font-weight: 500}.penci-block-vc .penci-block__title, .penci-menu-hbg .penci-block-vc .penci-block__title, .penci-menu-hbg-widgets .menu-hbg-title{ font-family:'Poppins', sans-serif; }.penci-block-vc .penci-block__title, .penci-menu-hbg .penci-block-vc .penci-block__title, .penci-menu-hbg-widgets .menu-hbg-title{ font-weight:500; }body, button, input, select, textarea,.penci-post-subtitle,.woocommerce ul.products li.product .button,#site-navigation .penci-megamenu .penci-mega-thumbnail .mega-cat-name{font-family: 'Karla', sans-serif}.single .entry-content,.page .entry-content{ font-size:18px; }.site-header .site-branding a,.header__top .site-branding a{ transform: translateY( 30px ); }.header--s10 .site-branding,.header--s10 .site-branding img {max-width: 180px !important;overflow: hidden; }.main-navigation > ul:not(.children) > li.highlight-button{ min-height: 90px; }.site-header,.main-navigation > ul:not(.children) > li > a,.site-header.header--s7 .main-navigation > ul:not(.children) > li > a,.search-click,.penci-menuhbg-wapper,.header__social-media,.site-header.header--s7,.site-header.header--s1 .site-branding .site-title,.site-header.header--s7 .site-branding .site-title,.site-header.header--s10 .site-branding .site-title,.site-header.header--s5 .site-branding .site-title{ line-height: 89px; min-height: 90px; }.site-header.header--s7 .custom-logo, .site-header.header--s10 .custom-logo,.site-header.header--s11 .custom-logo, .site-header.header--s1 .custom-logo, .site-header.header--s5 .custom-logo { max-height: 86px; }.main-navigation a,.mobile-sidebar .primary-menu-mobile li a, .penci-menu-hbg .primary-menu-mobile li a{ font-family: 'Montserrat', sans-serif; }.main-navigation a,.mobile-sidebar .primary-menu-mobile li a, .penci-menu-hbg .primary-menu-mobile li a{ font-weight: 600; }.main-navigation > ul:not(.children) > li > a{ font-size: 15px; }.main-navigation ul ul a{ font-size: 13px; }.main-navigation a{ text-transform: none; }#site-navigation .penci-megamenu .penci-mega-child-categories a{ text-transform: none; }@media screen and (min-width: 1240px){.two-sidebar .site-main .penci-container .widget-area-1, .penci-vc_two-sidebar.penci-container .widget-area-1,.penci-vc_two-sidebar.penci-container-fluid .widget-area-1{width: 21.4%; }.two-sidebar .site-main .penci-container .widget-area-2, .penci-vc_two-sidebar.penci-container .widget-area-2,.penci-vc_two-sidebar.penci-container-fluid .widget-area-2{width: 21.4%; }.two-sidebar .site-main .penci-container .penci-wide-content, .penci-vc_two-sidebar.penci-container .penci-wide-content,.penci-vc_two-sidebar.penci-container-fluid .penci-wide-content{ max-width: 100%; width: 57.2%; }}@media screen and (min-width: 960px){.sidebar-left .site-main .penci-wide-content,.sidebar-right .site-main .penci-wide-content{width: 74.36%;max-width: 100%;}.sidebar-left .site-main .widget-area,.sidebar-right .site-main .widget-area{width: 25.64%;max-width: 100%;}.penci-con_innner-sidebar-left .penci-content-main,.penci-vc_sidebar-right .penci-con_innner-sidebar-left .penci-content-main { width: 74.36%;max-width: 100%; }}@media screen and (min-width: 1240px){ .penci-vc_sidebar-left .penci-container__content .penci-content-main, .penci-vc_sidebar-right .penci-container__content .penci-content-main{ flex:inherit ; }.penci-vc_sidebar-left .widget-area, .penci-vc_sidebar-right .widget-area { width: 25.64%;max-width: 100%; }.penci-vc_sidebar-left .penci-content-main, .penci-vc_sidebar-right .penci-content-main{ width: 74.36%;max-width: 100%; }}@media screen and (max-width: 1240px) and (min-width: 960px){.penci-vc_two-sidebar .widget-area{ width: 25.64%;max-width: 100%; }.sidebar-left .site-main .penci-container__content, .sidebar-right .site-main .penci-container__content,.two-sidebar .site-main .penci-wide-content, .penci-vc_two-sidebar .penci-wide-content { margin-left:0; width: 74.36%;}}@media screen and (min-width: 1440px) {.penci-con_innner-sidebar-left .widget-area, .penci-con_innner-sidebar-right .widget-area { width: 25.64% !important; } }@media screen and (min-width: 1200px){ .archive  .site-main, body.blog  .site-main{ max-width:1200px;margin-left: auto; margin-right: auto; } .archive .site-main .penci-container, body.blog .site-main .penci-container{ max-width: 100%; } }.penci-portfolio-wrap{ margin-left: 0px; margin-right: 0px; }.penci-portfolio-wrap .portfolio-item{ padding-left: 0px; padding-right: 0px; margin-bottom:0px; }.penci-menu-hbg-widgets .menu-hbg-title { font-family:'Poppins', sans-serif }
+		.woocommerce div.product .related > h2,.woocommerce div.product .upsells > h2,
+		.post-title-box .post-box-title,.site-content #respond h3,.site-content .widget-title,
+		.site-content .widgettitle,
+		body.page-template-full-width.page-paged-2 .site-content .widget.penci-block-vc .penci-block__title,
+		body:not( .page-template-full-width ) .site-content .widget.penci-block-vc .penci-block__title{ font-size:15px !important;font-weight:500 !important;font-family:'Poppins', sans-serif !important; }#footer__sidebars.footer__sidebars{padding-top: 60px;padding-bottom: 60px;}.site-footer .penci-block-vc .penci-block__title{ font-size:15px;font-family:'Poppins', sans-serif; }.footer__bottom .footer__bottom_container{padding-top:60px;padding-bottom:60px;}.site-info{font-size:14px;}.footer__copyright_menu { padding-top:18px; padding-bottom: 18px; }body{ background-color: #fff; }.penci_dis_padding_bw .penci-block-vc.style-title-11:not(.footer-widget) .penci-block__title a,
+		.penci_dis_padding_bw .penci-block-vc.style-title-11:not(.footer-widget) .penci-block__title span, 
+		.penci_dis_padding_bw .penci-block-vc.style-title-11:not(.footer-widget) .penci-subcat-filter, 
+		.penci_dis_padding_bw .penci-block-vc.style-title-11:not(.footer-widget) .penci-slider-nav{ background-color:#f9fafe; }
+		.penci-ajax-search-results .ajax-loading:before,
+		.show-search .show-search__content,
+		div.bbp-template-notice, div.indicator-hint,	
+		.widget select,select, pre,.wpb_text_column,
+		.single .penci-content-post, .page .penci-content-post,
+		.forum-archive .penci-content-post,
+		.penci-block-vc,.penci-archive__content,.error404 .not-found,.ajax-loading:before{ background-color:#ffffff }
+		.penci-block-vc.style-title-11:not(.footer-widget) .penci-block__title a,
+		.penci-block-vc.style-title-11:not(.footer-widget) .penci-block__title span, 
+		.penci-block-vc.style-title-11:not(.footer-widget) .penci-subcat-filter, 
+		.penci-block-vc.style-title-11:not(.footer-widget) .penci-slider-nav{ background-color:#ffffff }.penci-archive .entry-meta,.penci-archive .entry-meta a,
+
+			.penci-inline-related-posts .penci_post-meta, .penci__general-meta .penci_post-meta, 
+			.penci-block_video.style-1 .penci_post-meta, .penci-block_video.style-7 .penci_post-meta,
+			.penci_breadcrumbs a, .penci_breadcrumbs span,.penci_breadcrumbs i,
+			.error404 .page-content,
+			.woocommerce .comment-form p.stars a,
+			.woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count,
+			.woocommerce #reviews #comments ol.commentlist li .comment-text .meta,
+			.penci-entry-meta,#wp-calendar caption,.penci-post-pagination span,
+			.penci-archive .entry-meta span{ color:#999999 }
+		.site-main .element-media-controls a, .entry-content .element-media-controls a,
+		    .penci-portfolio-below_img .inner-item-portfolio .portfolio-desc h3,
+			.post-entry .penci-portfolio-filter ul li a, .penci-portfolio-filter ul li a,
+			.widget_display_stats dt, .widget_display_stats dd,
+			#wp-calendar tbody td a,
+			.widget.widget_display_replies a,
+			.post-entry .penci-portfolio-filter ul li.active a, .penci-portfolio-filter ul li.active a,
+			.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+			.woocommerce ul.products li.product h3, .woocommerce ul.products li.product .woocommerce-loop-product__title,
+			.woocommerce table.shop_table td.product-name a,
+			input[type="text"], input[type="email"], input[type="url"], input[type="password"],
+			input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"],
+			input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea,
+			.error404 .page-content .search-form .search-submit,.penci-no-results .search-form .search-submit,.error404 .page-content a,
+			a,.widget a,.penci-block-vc .penci-block__title a, .penci-block-vc .penci-block__title span,
+			.penci-page-title, .penci-entry-title,.woocommerce .page-title,
+			.penci-recipe-index-wrap .penci-recipe-index-title a,
+			.penci-social-buttons .penci-social-share-text,
+			.woocommerce div.product .product_title,
+			.penci-post-pagination h5 a,
+			.woocommerce div.product .woocommerce-tabs .panel > h2:first-child, .woocommerce div.product .woocommerce-tabs .panel #reviews #comments h2,
+			.woocommerce div.product .woocommerce-tabs .panel #respond .comment-reply-title,
+			.woocommerce #reviews #comments ol.commentlist li .comment-text .meta strong,
+			.woocommerce div.product .related > h2, .woocommerce div.product .upsells > h2,
+			.penci-author-content .author-social,
+			.forum-archive .penci-entry-title,
+			#bbpress-forums li.bbp-body ul.forum li.bbp-forum-info a,
+			.woocommerce div.product .entry-summary div[itemprop="description"] h2, .woocommerce div.product .woocommerce-tabs #tab-description h2,
+			.widget.widget_recent_entries li a, .widget.widget_recent_comments li a, .widget.widget_meta li a,
+			.penci-pagination:not(.penci-ajax-more) a, .penci-pagination:not(.penci-ajax-more) span{ color:#111111 }div.wpforms-container .wpforms-form input[type=date],div.wpforms-container .wpforms-form input[type=datetime],div.wpforms-container .wpforms-form input[type=datetime-local],div.wpforms-container .wpforms-form input[type=email],div.wpforms-container .wpforms-form input[type=month],div.wpforms-container .wpforms-form input[type=number],div.wpforms-container .wpforms-form input[type=password],div.wpforms-container .wpforms-form input[type=range],div.wpforms-container .wpforms-form input[type=search],div.wpforms-container .wpforms-form input[type=tel],div.wpforms-container .wpforms-form input[type=text],div.wpforms-container .wpforms-form input[type=time],div.wpforms-container .wpforms-form input[type=url],div.wpforms-container .wpforms-form input[type=week],div.wpforms-container .wpforms-form select,div.wpforms-container .wpforms-form textarea{ color: #111111 }
+		h1, h2, h3, h4, h5, h6,.penci-userreview-author,.penci-review-metas .penci-review-meta i,
+		.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4,
+		.entry-content h5, .entry-content h6, .comment-content h1, .comment-content h2,
+		.comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6,
+		.penci-inline-related-posts .penci-irp-heading{ color:#111111 }.site-main .frontend-form-container .element-media-file,.site-main .frontend-form-container .element-media,.site-main .frontend-item-container .select2.select2-container .select2-selection.select-with-search-container,.site-main .frontend-item-container input[type="text"],.site-main .frontend-item-container input[type="email"],.site-main .frontend-item-container input[type="url"],.site-main .frontend-item-container textarea,.site-main .frontend-item-container select{ border-color: #dedede }
+			.site-header,
+			.buddypress-wrap .select-wrap,
+			.penci-post-blog-classic,
+			.activity-list.bp-list,
+			.penci-team_memebers .penci-team_item__content,
+			.penci-author-box-wrap,
+			.about-widget .about-me-heading:before,
+			#buddypress .wp-editor-container,
+			#bbpress-forums .bbp-forums-list,
+			div.bbp-forum-header, div.bbp-topic-header, div.bbp-reply-header,
+			.activity-list li.bbp_topic_create .activity-content .activity-inner,
+			.rtl .activity-list li.bbp_reply_create .activity-content .activity-inner,
+			#drag-drop-area,
+			.bp-avatar-nav ul.avatar-nav-items li.current,
+			.bp-avatar-nav ul,
+			.site-main .bbp-pagination-links a, .site-main .bbp-pagination-links span.current,
+			.bbpress  .wp-editor-container,
+			.penci-ajax-search-results-wrapper,
+			.show-search .search-field,
+			.show-search .show-search__content,
+			.penci-viewall-results,
+			.penci-subcat-list .flexMenu-viewMore .flexMenu-popup,
+			.penci-owl-carousel-style .owl-dot span,
+			.penci-owl-carousel-slider .owl-dot span,
+			.woocommerce-cart table.cart td.actions .coupon .input-text,
+			.blog-boxed .penci-archive__content .article_content,
+			.penci-block_28 .block28_first_item:not(.hide-border),
+			.penci-mul-comments-wrapper .penci-tab-nav,
+			.penci-recipe,.penci-recipe-heading,.penci-recipe-ingredients,.penci-recipe-notes,
+			.wp-block-yoast-faq-block .schema-faq-section,
+			.wp-block-yoast-how-to-block ol.schema-how-to-steps,
+			.wp-block-pullquote,
+			.wrapper-penci-recipe .penci-recipe-ingredients
+			{ border-color:#dedede }
+		    blockquote:not(.wp-block-quote):before, q:before,   
+		    blockquote:not(.wp-block-quote):after, q:after, blockquote.style-3:before,
+			.penci-block-vc.style-title-10:not(.footer-widget) .penci-block-heading:after
+			{ background-color:#dedede }
+			.penci-block-vc.style-title-10:not(.footer-widget) .penci-block-heading,
+			.wrapper-penci-review, .penci-review-container.penci-review-count,.penci-usewr-review,
+			.widget .tagcloud a,.widget.widget_recent_entries li, .widget.widget_recent_comments li, .widget.widget_meta li,
+		    .penci-inline-related-posts,
+		    .penci_dark_layout .site-main #buddypress div.item-list-tabs:not(#subnav),
+			code,abbr, acronym,fieldset,hr,#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
+			.penci-pagination:not(.penci-ajax-more) a, .penci-pagination:not(.penci-ajax-more) span,
+			th,td,#wp-calendar tbody td{ border-color:#dedede }
+			.site-main #bbpress-forums li.bbp-body ul.forum,
+			.site-main #bbpress-forums li.bbp-body ul.topic,#bbpress-forums li.bbp-footer,
+			#bbpress-forums div.bbp-template-notice.info,
+			.bbp-pagination-links a, .bbp-pagination-links span.current,
+			.site-main #buddypress .standard-form textarea,
+			.site-main #buddypress .standard-form input[type=text], .site-main #buddypress .standard-form input[type=color], 
+			.site-main #buddypress .standard-form input[type=date], .site-main #buddypress .standard-form input[type=datetime],
+			.site-main #buddypress .standard-form input[type=datetime-local], .site-main #buddypress .standard-form input[type=email],
+			.site-main #buddypress .standard-form input[type=month], .site-main #buddypress .standard-form input[type=number], 
+			.site-main #buddypress .standard-form input[type=range], .site-main #buddypress .standard-form input[type=search], 
+			.site-main #buddypress .standard-form input[type=tel], .site-main #buddypress .standard-form input[type=time],
+		    .site-main #buddypress .standard-form input[type=url], .site-main #buddypress .standard-form input[type=week],
+		    .site-main #buddypress .standard-form select,.site-main #buddypress .standard-form input[type=password],
+	        .site-main #buddypress .dir-search input[type=search], .site-main #buddypress .dir-search input[type=text],
+	        .site-main #buddypress .groups-members-search input[type=search], .site-main #buddypress .groups-members-search input[type=text],
+	        .site-main #buddypress button, .site-main #buddypress a.button,
+	        .site-main #buddypress input[type=button], .site-main #buddypress input[type=reset],
+	        .site-main #buddypress ul.button-nav li a,.site-main #buddypress div.generic-button a,.site-main #buddypress .comment-reply-link, 
+	        a.bp-title-button,.site-main #buddypress button:hover,.site-main #buddypress a.button:hover, .site-main #buddypress a.button:focus,
+	        .site-main #buddypress input[type=button]:hover, .site-main #buddypress input[type=reset]:hover, 
+	        .site-main #buddypress ul.button-nav li a:hover, .site-main #buddypress ul.button-nav li.current a,
+	        .site-main #buddypress div.generic-button a:hover,.site-main #buddypress .comment-reply-link:hover,
+	        .site-main #buddypress input[type=submit]:hover,.site-main #buddypress select,.site-main #buddypress ul.item-list,
+			.site-main #buddypress .profile[role=main],.site-main #buddypress ul.item-list li,.site-main #buddypress div.pagination .pag-count ,
+			.site-main #buddypress div.pagination .pagination-links span,.site-main #buddypress div.pagination .pagination-links a,
+			body.activity-permalink .site-main #buddypress div.activity-comments, .site-main #buddypress div.activity-comments form .ac-textarea,
+			.site-main #buddypress table.profile-fields, .site-main #buddypress table.profile-fields:last-child{ border-color:#dedede }.site-main #buddypress table.notifications tr td.label, #buddypress table.notifications-settings tr td.label,.site-main #buddypress table.profile-fields tr td.label, #buddypress table.wp-profile-fields tr td.label,.site-main #buddypress table.messages-notices tr td.label, #buddypress table.forum tr td.label{ border-color: #dedede !important; }
+			.penci-block-vc,
+			.penci-block_1 .block1_first_item,
+			.penci-block_1 .block1_first_item .penci_post-meta,
+			.penci-block_1 .block1_items .penci_media_object,
+			.penci-block_4 .penci-small-thumb:after,
+			.penci-recent-rv,
+			.penci-block_6 .penci-post-item,
+			.penci-block_9 .block9_first_item,.penci-block_9 .penci-post-item,
+			.penci-block_9 .block9_items .block9_item_loadmore:first-of-type,
+			.penci-block_11 .block11_first_item,.penci-block_11 .penci-post-item,
+			.penci-block_11 .block11_items .block11_item_loadmore:first-of-type,
+			.penci-block_15 .penci-post-item,.penci-block_15 .penci-block__title,
+			.penci-block_20 .penci_media_object,
+			.penci-block_20 .penci_media_object.penci_mobj-image-right .penci_post_content,
+			.penci-block_26 .block26_items .penci-post-item,
+			.penci-block_28 .block28_first_item,
+			.penci-block_28 .block28_first_item .penci_post-meta,
+			.penci-block_29 .block_29_items .penci-post-item,
+			.penci-block_30 .block30_items .penci_media_object,
+			.penci-block_33 .block33_big_item .penci_post-meta,
+			.penci-block_36 .penci-post-item, .penci-block_36 .penci-block__title,
+			.penci-block_6 .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:first-child,
+			.penci-block_video.style-7 .penci-owl-carousel-slider .owl-dots span,
+			.penci-owl-featured-area.style-12 .penci-small_items .owl-item.active .penci-item-mag,
+			.penci-videos-playlist .penci-video-nav .penci-video-playlist-nav:not(.playlist-has-title) .penci-video-playlist-item:first-child,
+			.penci-videos-playlist .penci-video-nav .penci-video-playlist-nav:not(.playlist-has-title) .penci-video-playlist-item:last-child,
+			.penci-videos-playlist .penci-video-nav .penci-video-playlist-item,
+			.penci-archive__content .penci-entry-header,
+			.page-template-full-width.penci-block-pagination .penci_breadcrumbs,
+			.penci-post-pagination,.penci-pfl-social_share,.penci-post-author,
+			.penci-social-buttons.penci-social-share-footer,
+			.penci-pagination:not(.penci-ajax-more) a,
+			.penci-social-buttons .penci-social-item.like{ border-color:#dedede }.penci-container-width-1080 .penci-content-main.penci-col-4 .penci-block_1 .block1_items .penci-post-item:nth-child(2) .penci_media_object,.penci-container-width-1400 .penci-content-main.penci-col-4 .penci-block_1 .block1_items .penci-post-item:nth-child(2) .penci_media_object,.wpb_wrapper > .penci-block_1.penci-vc-column-1 .block1_items .penci-post-item:nth-child(2) .penci_media_object,.widget-area .penci-block_1 .block1_items .penci-post-item:nth-child(2) .penci_media_object{ border-color:#dedede }
+			.penci-block_6.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_6.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_6.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_6.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_36.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:first-child,
+		    .penci-block_36.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:first-child,
+			.penci-block_36.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_36.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_36.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_36.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_6.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_6.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_6.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3),
+			.penci-block_6.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_6.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_6.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3),
+			.penci-block_36.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_36.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2), 
+			.penci-block_36.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3), 
+			.penci-block_36.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_36.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_36.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3),
+			.penci-block_15.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1), 
+			.penci-block_15.penci-vc-column-2.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_15.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_15.penci-vc-column-2.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_15.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_15.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_15.penci-vc-column-3.penci-block-load_more .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3),
+			.penci-block_15.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(1),
+			.penci-block_15.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(2),
+			.penci-block_15.penci-vc-column-3.penci-block-infinite .penci-block_content__items:not(.penci-block-items__1) .penci-post-item:nth-child(3){ border-color:#dedede }
+			select,input[type="text"], input[type="email"], input[type="url"], input[type="password"], 
+			input[type="search"], input[type="number"], input[type="tel"], input[type="range"],
+			input[type="date"], input[type="month"], input[type="week"], input[type="time"], 
+			input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea,
+			.single-portfolio .penci-social-buttons + .post-comments,
+			#respond textarea, .wpcf7 textarea,
+			.post-comments .post-title-box,.penci-comments-button,
+			.penci-comments-button + .post-comments .comment-reply-title,
+			.penci-post-related + .post-comments .comment-reply-title,
+			.penci-post-related + .post-comments .post-title-box,
+			.comments .comment ,.comments .comment, .comments .comment .comment,
+			#respond input,.wpcf7 input,.widget_wysija input,
+			#bbpress-forums #bbp-search-form .button,
+			.site-main #buddypress div.item-list-tabs:not( #subnav ),
+			.site-main #buddypress div.item-list-tabs:not(#subnav) ul li a,
+			.site-main #buddypress div.item-list-tabs:not(#subnav) ul li > span,
+			.site-main #buddypress .dir-search input[type=submit], .site-main #buddypress .groups-members-search input[type=submit],
+			#respond textarea,.wpcf7 textarea { border-color:#dedede } div.wpforms-container .wpforms-form input[type=date],div.wpforms-container .wpforms-form input[type=datetime],div.wpforms-container .wpforms-form input[type=datetime-local],div.wpforms-container .wpforms-form input[type=email],div.wpforms-container .wpforms-form input[type=month],div.wpforms-container .wpforms-form input[type=number],div.wpforms-container .wpforms-form input[type=password],div.wpforms-container .wpforms-form input[type=range],div.wpforms-container .wpforms-form input[type=search],div.wpforms-container .wpforms-form input[type=tel],div.wpforms-container .wpforms-form input[type=text],div.wpforms-container .wpforms-form input[type=time],div.wpforms-container .wpforms-form input[type=url],div.wpforms-container .wpforms-form input[type=week],div.wpforms-container .wpforms-form select,div.wpforms-container .wpforms-form textarea{ border-color: #dedede }
+		    .penci-owl-featured-area.style-13 .penci-small_items .owl-item.active .penci-item-mag:before,
+			.site-header.header--s2:before, .site-header.header--s3:not(.header--s4):before, .site-header.header--s6:before,
+			.penci_gallery.style-1 .penci-small-thumb:after,
+			.penci-videos-playlist .penci-video-nav .penci-video-playlist-item.is-playing,
+			.penci-videos-playlist .penci-video-nav .penci-video-playlist-item:hover, 		
+			blockquote:before, q:before,blockquote:after, q:after{ background-color:#dedede }.site-main #buddypress .dir-search input[type=submit], .site-main #buddypress .groups-members-search input[type=submit],
+			input[type="button"], input[type="reset"], input[type="submit"]{ border-color:#dedede }@media (max-width: 768px) {.penci-post-pagination .prev-post + .next-post {border-color :#dedede; }}@media (max-width: 650px) {.penci-block_1 .block1_items .penci-post-item:nth-child(2) .penci_media_object {border-color :#dedede; }}.buy-button{ background-color:#33c3f0 !important; }.penci-menuhbg-toggle:hover .lines-button:after,.penci-menuhbg-toggle:hover .penci-lines:before,.penci-menuhbg-toggle:hover .penci-lines:after.penci-login-container a,.penci_list_shortcode li:before,.footer__sidebars .penci-block-vc .penci__post-title a:hover,.penci-viewall-results a:hover,.post-entry .penci-portfolio-filter ul li.active a, .penci-portfolio-filter ul li.active a,.penci-ajax-search-results-wrapper .penci__post-title a:hover{ color: #33c3f0; }.penci-tweets-widget-content .icon-tweets,.penci-tweets-widget-content .tweet-intents a,.penci-tweets-widget-content .tweet-intents span:after,.woocommerce .star-rating span,.woocommerce .comment-form p.stars a:hover,.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,.penci-subcat-list .flexMenu-viewMore:hover a, .penci-subcat-list .flexMenu-viewMore:focus a,.penci-subcat-list .flexMenu-viewMore .flexMenu-popup .penci-subcat-item a:hover,.penci-owl-carousel-style .owl-dot.active span, .penci-owl-carousel-style .owl-dot:hover span,.penci-owl-carousel-slider .owl-dot.active span,.penci-owl-carousel-slider .owl-dot:hover span{ color: #33c3f0; }.penci-owl-carousel-slider .owl-dot.active span,.penci-owl-carousel-slider .owl-dot:hover span{ background-color: #33c3f0; }blockquote, q,.penci-post-pagination a:hover,a:hover,.penci-entry-meta a:hover,.penci-portfolio-below_img .inner-item-portfolio .portfolio-desc a:hover h3,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li:hover > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li:active > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.current-menu-item > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.current-menu-ancestor > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.current-category-ancestor > a,.site-header.header--s11 .main-navigation.penci_enable_line_menu .menu > li:hover > a,.site-header.header--s11 .main-navigation.penci_enable_line_menu .menu > li:active > a,.site-header.header--s11 .main-navigation.penci_enable_line_menu .menu > li.current-menu-item > a,.main-navigation.penci_disable_padding_menu ul.menu > li > a:hover,.main-navigation ul li:hover > a,.main-navigation ul li:active > a,.main-navigation li.current-menu-item > a,#site-navigation .penci-megamenu .penci-mega-child-categories a.cat-active,#site-navigation .penci-megamenu .penci-content-megamenu .penci-mega-latest-posts .penci-mega-post a:not(.mega-cat-name):hover,.penci-post-pagination h5 a:hover{ color: #33c3f0; }.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button > a{ color: #33c3f0;border-color: #33c3f0; }.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button:hover > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button:active > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button.current-category-ancestor > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button.current-category-ancestor > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button.current-menu-ancestor > a,.main-navigation.penci_disable_padding_menu > ul:not(.children) > li.highlight-button.current-menu-item > a{ border-color: #33c3f0; }.penci-menu-hbg .primary-menu-mobile li a:hover,.penci-menu-hbg .primary-menu-mobile li.toggled-on > a,.penci-menu-hbg .primary-menu-mobile li.toggled-on > .dropdown-toggle,.penci-menu-hbg .primary-menu-mobile li.current-menu-item > a,.penci-menu-hbg .primary-menu-mobile li.current-menu-item > .dropdown-toggle,.mobile-sidebar .primary-menu-mobile li a:hover,.mobile-sidebar .primary-menu-mobile li.toggled-on-first > a,.mobile-sidebar .primary-menu-mobile li.toggled-on > a,.mobile-sidebar .primary-menu-mobile li.toggled-on > .dropdown-toggle,.mobile-sidebar .primary-menu-mobile li.current-menu-item > a,.mobile-sidebar .primary-menu-mobile li.current-menu-item > .dropdown-toggle,.mobile-sidebar #sidebar-nav-logo a,.mobile-sidebar #sidebar-nav-logo a:hover.mobile-sidebar #sidebar-nav-logo:before,.penci-recipe-heading a.penci-recipe-print,.widget a:hover,.widget.widget_recent_entries li a:hover, .widget.widget_recent_comments li a:hover, .widget.widget_meta li a:hover,.penci-topbar a:hover,.penci-topbar ul li:hover,.penci-topbar ul li a:hover,.penci-topbar ul.menu li ul.sub-menu li a:hover,.site-branding a, .site-branding .site-title{ color: #33c3f0; }.penci-viewall-results a:hover,.penci-ajax-search-results-wrapper .penci__post-title a:hover,.header__search_dis_bg .search-click:hover,.header__social-media a:hover,.penci-login-container .link-bottom a,.error404 .page-content a,.penci-no-results .search-form .search-submit:hover,.error404 .page-content .search-form .search-submit:hover,.penci_breadcrumbs a:hover, .penci_breadcrumbs a:hover span,.penci-archive .entry-meta a:hover,.penci-caption-above-img .wp-caption a:hover,.penci-author-content .author-social:hover,.entry-content a,.comment-content a,.penci-page-style-5 .penci-active-thumb .penci-entry-meta a:hover,.penci-single-style-5 .penci-active-thumb .penci-entry-meta a:hover{ color: #33c3f0; }blockquote:not(.wp-block-quote).style-2:before{ background-color: transparent; }blockquote.style-2:before,blockquote:not(.wp-block-quote),blockquote.style-2 cite, blockquote.style-2 .author,blockquote.style-3 cite, blockquote.style-3 .author,.woocommerce ul.products li.product .price,.woocommerce ul.products li.product .price ins,.woocommerce div.product p.price ins,.woocommerce div.product span.price ins, .woocommerce div.product p.price, .woocommerce div.product span.price,.woocommerce div.product .entry-summary div[itemprop="description"] blockquote:before, .woocommerce div.product .woocommerce-tabs #tab-description blockquote:before,.woocommerce-product-details__short-description blockquote:before,.woocommerce div.product .entry-summary div[itemprop="description"] blockquote cite, .woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author,.woocommerce div.product .woocommerce-tabs #tab-description blockquote cite, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author,.woocommerce div.product .product_meta > span a:hover,.woocommerce div.product .woocommerce-tabs ul.tabs li.active{ color: #33c3f0; }.woocommerce #respond input#submit.alt.disabled:hover,.woocommerce #respond input#submit.alt:disabled:hover,.woocommerce #respond input#submit.alt:disabled[disabled]:hover,.woocommerce a.button.alt.disabled,.woocommerce a.button.alt.disabled:hover,.woocommerce a.button.alt:disabled,.woocommerce a.button.alt:disabled:hover,.woocommerce a.button.alt:disabled[disabled],.woocommerce a.button.alt:disabled[disabled]:hover,.woocommerce button.button.alt.disabled,.woocommerce button.button.alt.disabled:hover,.woocommerce button.button.alt:disabled,.woocommerce button.button.alt:disabled:hover,.woocommerce button.button.alt:disabled[disabled],.woocommerce button.button.alt:disabled[disabled]:hover,.woocommerce input.button.alt.disabled,.woocommerce input.button.alt.disabled:hover,.woocommerce input.button.alt:disabled,.woocommerce input.button.alt:disabled:hover,.woocommerce input.button.alt:disabled[disabled],.woocommerce input.button.alt:disabled[disabled]:hover{ background-color: #33c3f0; }.woocommerce ul.cart_list li .amount, .woocommerce ul.product_list_widget li .amount,.woocommerce table.shop_table td.product-name a:hover,.woocommerce-cart .cart-collaterals .cart_totals table td .amount,.woocommerce .woocommerce-info:before,.woocommerce form.checkout table.shop_table .order-total .amount,.post-entry .penci-portfolio-filter ul li a:hover,.post-entry .penci-portfolio-filter ul li.active a,.penci-portfolio-filter ul li a:hover,.penci-portfolio-filter ul li.active a,#bbpress-forums li.bbp-body ul.forum li.bbp-forum-info a:hover,#bbpress-forums li.bbp-body ul.topic li.bbp-topic-title a:hover,#bbpress-forums li.bbp-body ul.forum li.bbp-forum-info .bbp-forum-content a,#bbpress-forums li.bbp-body ul.topic p.bbp-topic-meta a,#bbpress-forums .bbp-breadcrumb a:hover, #bbpress-forums .bbp-breadcrumb .bbp-breadcrumb-current:hover,#bbpress-forums .bbp-forum-freshness a:hover,#bbpress-forums .bbp-topic-freshness a:hover{ color: #33c3f0; }.footer__bottom a,.footer__logo a, .footer__logo a:hover,.site-info a,.site-info a:hover,.sub-footer-menu li a:hover,.footer__sidebars a:hover,.penci-block-vc .social-buttons a:hover,.penci-inline-related-posts .penci_post-meta a:hover,.penci__general-meta .penci_post-meta a:hover,.penci-block_video.style-1 .penci_post-meta a:hover,.penci-block_video.style-7 .penci_post-meta a:hover,.penci-block-vc .penci-block__title a:hover,.penci-block-vc.style-title-2 .penci-block__title a:hover,.penci-block-vc.style-title-2:not(.footer-widget) .penci-block__title a:hover,.penci-block-vc.style-title-4 .penci-block__title a:hover,.penci-block-vc.style-title-4:not(.footer-widget) .penci-block__title a:hover,.penci-block-vc .penci-subcat-filter .penci-subcat-item a.active, .penci-block-vc .penci-subcat-filter .penci-subcat-item a:hover ,.penci-block_1 .penci_post-meta a:hover,.penci-inline-related-posts.penci-irp-type-grid .penci__post-title:hover{ color: #33c3f0; }.penci-block_10 .penci-posted-on a,.penci-block_10 .penci-block__title a:hover,.penci-block_10 .penci__post-title a:hover,.penci-block_26 .block26_first_item .penci__post-title:hover,.penci-block_30 .penci_post-meta a:hover,.penci-block_33 .block33_big_item .penci_post-meta a:hover,.penci-block_36 .penci-chart-text,.penci-block_video.style-1 .block_video_first_item.penci-title-ab-img .penci_post_content a:hover,.penci-block_video.style-1 .block_video_first_item.penci-title-ab-img .penci_post-meta a:hover,.penci-block_video.style-6 .penci__post-title:hover,.penci-block_video.style-7 .penci__post-title:hover,.penci-owl-featured-area.style-12 .penci-small_items h3 a:hover,.penci-owl-featured-area.style-12 .penci-small_items .penci-slider__meta a:hover ,.penci-owl-featured-area.style-12 .penci-small_items .owl-item.current h3 a,.penci-owl-featured-area.style-13 .penci-small_items h3 a:hover,.penci-owl-featured-area.style-13 .penci-small_items .penci-slider__meta a:hover,.penci-owl-featured-area.style-13 .penci-small_items .owl-item.current h3 a,.penci-owl-featured-area.style-14 .penci-small_items h3 a:hover,.penci-owl-featured-area.style-14 .penci-small_items .penci-slider__meta a:hover ,.penci-owl-featured-area.style-14 .penci-small_items .owl-item.current h3 a,.penci-owl-featured-area.style-17 h3 a:hover,.penci-owl-featured-area.style-17 .penci-slider__meta a:hover,.penci-fslider28-wrapper.penci-block-vc .penci-slider-nav a:hover,.penci-videos-playlist .penci-video-nav .penci-video-playlist-item .penci-video-play-icon,.penci-videos-playlist .penci-video-nav .penci-video-playlist-item.is-playing { color: #33c3f0; }.penci-block_video.style-7 .penci_post-meta a:hover,.penci-ajax-more.disable_bg_load_more .penci-ajax-more-button:hover, .penci-ajax-more.disable_bg_load_more .penci-block-ajax-more-button:hover{ color: #33c3f0; }.site-main #buddypress input[type=submit]:hover,.site-main #buddypress div.generic-button a:hover,.site-main #buddypress .comment-reply-link:hover,.site-main #buddypress a.button:hover,.site-main #buddypress a.button:focus,.site-main #buddypress ul.button-nav li a:hover,.site-main #buddypress ul.button-nav li.current a,.site-main #buddypress .dir-search input[type=submit]:hover, .site-main #buddypress .groups-members-search input[type=submit]:hover,.site-main #buddypress div.item-list-tabs ul li.selected a,.site-main #buddypress div.item-list-tabs ul li.current a,.site-main #buddypress div.item-list-tabs ul li a:hover{ border-color: #33c3f0;background-color: #33c3f0; }.site-main #buddypress table.notifications thead tr, .site-main #buddypress table.notifications-settings thead tr,.site-main #buddypress table.profile-settings thead tr, .site-main #buddypress table.profile-fields thead tr,.site-main #buddypress table.profile-settings thead tr, .site-main #buddypress table.profile-fields thead tr,.site-main #buddypress table.wp-profile-fields thead tr, .site-main #buddypress table.messages-notices thead tr,.site-main #buddypress table.forum thead tr{ border-color: #33c3f0;background-color: #33c3f0; }.site-main .bbp-pagination-links a:hover, .site-main .bbp-pagination-links span.current,#buddypress div.item-list-tabs:not(#subnav) ul li.selected a, #buddypress div.item-list-tabs:not(#subnav) ul li.current a, #buddypress div.item-list-tabs:not(#subnav) ul li a:hover,#buddypress ul.item-list li div.item-title a, #buddypress ul.item-list li h4 a,div.bbp-template-notice a,#bbpress-forums li.bbp-body ul.topic li.bbp-topic-title a,#bbpress-forums li.bbp-body .bbp-forums-list li,.site-main #buddypress .activity-header a:first-child, #buddypress .comment-meta a:first-child, #buddypress .acomment-meta a:first-child{ color: #33c3f0 !important; }.single-tribe_events .tribe-events-schedule .tribe-events-cost{ color: #33c3f0; }.tribe-events-list .tribe-events-loop .tribe-event-featured,#tribe-events .tribe-events-button,#tribe-events .tribe-events-button:hover,#tribe_events_filters_wrapper input[type=submit],.tribe-events-button, .tribe-events-button.tribe-active:hover,.tribe-events-button.tribe-inactive,.tribe-events-button:hover,.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-],.tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a,#tribe-bar-form .tribe-bar-submit input[type=submit]:hover{ background-color: #33c3f0; }.woocommerce span.onsale,.show-search:after,select option:focus,.woocommerce .widget_shopping_cart p.buttons a:hover, .woocommerce.widget_shopping_cart p.buttons a:hover, .woocommerce .widget_price_filter .price_slider_amount .button:hover, .woocommerce div.product form.cart .button:hover,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.penci-block-vc.style-title-2:not(.footer-widget) .penci-block__title a, .penci-block-vc.style-title-2:not(.footer-widget) .penci-block__title span,.penci-block-vc.style-title-3:not(.footer-widget) .penci-block-heading:after,.penci-block-vc.style-title-4:not(.footer-widget) .penci-block__title a, .penci-block-vc.style-title-4:not(.footer-widget) .penci-block__title span,.penci-archive .penci-archive__content .penci-cat-links a:hover,.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,.penci-block-vc .penci-cat-name:hover,#buddypress .activity-list li.load-more, #buddypress .activity-list li.load-newest,#buddypress .activity-list li.load-more:hover, #buddypress .activity-list li.load-newest:hover,.site-main #buddypress button:hover, .site-main #buddypress a.button:hover, .site-main #buddypress input[type=button]:hover, .site-main #buddypress input[type=reset]:hover{ background-color: #33c3f0; }.penci-block-vc.style-title-grid:not(.footer-widget) .penci-block__title span, .penci-block-vc.style-title-grid:not(.footer-widget) .penci-block__title a,.penci-block-vc .penci_post_thumb:hover .penci-cat-name,.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,.main-navigation > ul:not(.children) > li:hover > a,.main-navigation > ul:not(.children) > li:active > a,.main-navigation > ul:not(.children) > li.current-menu-item > a,.main-navigation.penci_enable_line_menu > ul:not(.children) > li > a:before,.main-navigation a:hover,#site-navigation .penci-megamenu .penci-mega-thumbnail .mega-cat-name:hover,#site-navigation .penci-megamenu .penci-mega-thumbnail:hover .mega-cat-name,.penci-review-process span,.penci-review-score-total,.topbar__trending .headline-title,.header__search:not(.header__search_dis_bg) .search-click,.cart-icon span.items-number{ background-color: #33c3f0; }.login__form .login__form__login-submit input:hover,.penci-login-container .penci-login input[type="submit"]:hover,.penci-archive .penci-entry-categories a:hover,.single .penci-cat-links a:hover,.page .penci-cat-links a:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover,.woocommerce div.product .entry-summary div[itemprop="description"]:before,.woocommerce div.product .entry-summary div[itemprop="description"] blockquote .author span:after, .woocommerce div.product .woocommerce-tabs #tab-description blockquote .author span:after,.woocommerce-product-details__short-description blockquote .author span:after,.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,#scroll-to-top:hover,div.wpforms-container .wpforms-form input[type=submit]:hover,div.wpforms-container .wpforms-form button[type=submit]:hover,div.wpforms-container .wpforms-form .wpforms-page-button:hover,div.wpforms-container .wpforms-form .wpforms-page-button:hover,#respond #submit:hover,.wpcf7 input[type="submit"]:hover,.widget_wysija input[type="submit"]:hover{ background-color: #33c3f0; }.penci-block_video .penci-close-video:hover,.penci-block_5 .penci_post_thumb:hover .penci-cat-name,.penci-block_25 .penci_post_thumb:hover .penci-cat-name,.penci-block_8 .penci_post_thumb:hover .penci-cat-name,.penci-block_14 .penci_post_thumb:hover .penci-cat-name,.penci-block-vc.style-title-grid .penci-block__title span, .penci-block-vc.style-title-grid .penci-block__title a,.penci-block_7 .penci_post_thumb:hover .penci-order-number,.penci-block_15 .penci-post-order,.penci-news_ticker .penci-news_ticker__title{ background-color: #33c3f0; }.penci-owl-featured-area .penci-item-mag:hover .penci-slider__cat .penci-cat-name,.penci-owl-featured-area .penci-slider__cat .penci-cat-name:hover,.penci-owl-featured-area.style-12 .penci-small_items .owl-item.current .penci-cat-name,.penci-owl-featured-area.style-13 .penci-big_items .penci-slider__cat .penci-cat-name,.penci-owl-featured-area.style-13 .button-read-more:hover,.penci-owl-featured-area.style-13 .penci-small_items .owl-item.current .penci-cat-name,.penci-owl-featured-area.style-14 .penci-small_items .owl-item.current .penci-cat-name,.penci-owl-featured-area.style-18 .penci-slider__cat .penci-cat-name{ background-color: #33c3f0; }.show-search .show-search__content:after,.penci-wide-content .penci-owl-featured-area.style-23 .penci-slider__text,.penci-grid_2 .grid2_first_item:hover .penci-cat-name,.penci-grid_2 .penci-post-item:hover .penci-cat-name,.penci-grid_3 .penci-post-item:hover .penci-cat-name,.penci-grid_1 .penci-post-item:hover .penci-cat-name,.penci-videos-playlist .penci-video-nav .penci-playlist-title,.widget-area .penci-videos-playlist .penci-video-nav .penci-video-playlist-item .penci-video-number,.widget-area .penci-videos-playlist .penci-video-nav .penci-video-playlist-item .penci-video-play-icon,.widget-area .penci-videos-playlist .penci-video-nav .penci-video-playlist-item .penci-video-paused-icon,.penci-owl-featured-area.style-17 .penci-slider__text::after,#scroll-to-top:hover{ background-color: #33c3f0; }.featured-area-custom-slider .penci-owl-carousel-slider .owl-dot span,.main-navigation > ul:not(.children) > li ul.sub-menu,.error404 .not-found,.error404 .penci-block-vc,.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message,.penci-owl-featured-area.style-12 .penci-small_items,.penci-owl-featured-area.style-12 .penci-small_items .owl-item.current .penci_post_thumb,.penci-owl-featured-area.style-13 .button-read-more:hover{ border-color: #33c3f0; }.widget .tagcloud a:hover,.penci-social-buttons .penci-social-item.like.liked,.site-footer .widget .tagcloud a:hover,.penci-recipe-heading a.penci-recipe-print:hover,.penci-custom-slider-container .pencislider-content .pencislider-btn-trans:hover,button:hover,.button:hover, .entry-content a.button:hover,.penci-vc-btn-wapper .penci-vc-btn.penci-vcbtn-trans:hover, input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,.penci-ajax-more .penci-ajax-more-button:hover,.penci-ajax-more .penci-portfolio-more-button:hover,.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li span.current,.penci-block_10 .penci-more-post:hover,.penci-block_15 .penci-more-post:hover,.penci-block_36 .penci-more-post:hover,.penci-block_video.style-7 .penci-owl-carousel-slider .owl-dot.active span,.penci-block_video.style-7 .penci-owl-carousel-slider .owl-dot:hover span ,.penci-block_video.style-7 .penci-owl-carousel-slider .owl-dot:hover span ,.penci-ajax-more .penci-ajax-more-button:hover,.penci-ajax-more .penci-block-ajax-more-button:hover,.penci-ajax-more .penci-ajax-more-button.loading-posts:hover, .penci-ajax-more .penci-block-ajax-more-button.loading-posts:hover,.site-main #buddypress .activity-list li.load-more a:hover, .site-main #buddypress .activity-list li.load-newest a,.penci-owl-carousel-slider.penci-tweets-slider .owl-dots .owl-dot.active span, .penci-owl-carousel-slider.penci-tweets-slider .owl-dots .owl-dot:hover span,.penci-pagination:not(.penci-ajax-more) span.current, .penci-pagination:not(.penci-ajax-more) a:hover{border-color:#33c3f0;background-color: #33c3f0;}.penci-owl-featured-area.style-23 .penci-slider-overlay{ 
+		background: -moz-linear-gradient(left, transparent 26%, #33c3f0  65%);
+	    background: -webkit-gradient(linear, left top, right top, color-stop(26%, #33c3f0 ), color-stop(65%, transparent));
+	    background: -webkit-linear-gradient(left, transparent 26%, #33c3f0 65%);
+	    background: -o-linear-gradient(left, transparent 26%, #33c3f0 65%);
+	    background: -ms-linear-gradient(left, transparent 26%, #33c3f0 65%);
+	    background: linear-gradient(to right, transparent 26%, #33c3f0 65%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33c3f0', endColorstr='#33c3f0', GradientType=1);
+		 }.site-main #buddypress .activity-list li.load-more a, .site-main #buddypress .activity-list li.load-newest a,.header__search:not(.header__search_dis_bg) .search-click:hover,.tagcloud a:hover,.site-footer .widget .tagcloud a:hover{ transition: all 0.3s; opacity: 0.8; }.penci-loading-animation-1 .penci-loading-animation,.penci-loading-animation-1 .penci-loading-animation:before,.penci-loading-animation-1 .penci-loading-animation:after,.penci-loading-animation-5 .penci-loading-animation,.penci-loading-animation-6 .penci-loading-animation:before,.penci-loading-animation-7 .penci-loading-animation,.penci-loading-animation-8 .penci-loading-animation,.penci-loading-animation-9 .penci-loading-circle-inner:before,.penci-load-thecube .penci-load-cube:before,.penci-three-bounce .one,.penci-three-bounce .two,.penci-three-bounce .three{ background-color: #33c3f0; }.header__social-media a, .cart-icon span{font-size: 14px; }.search-click i{font-size: 15px; }.penci-menuhbg-toggle .lines-button:after,
+		.penci-menuhbg-toggle .penci-lines:before,
+		.penci-menuhbg-toggle .penci-lines:after{ background-color:#efefef; }.penci-menuhbg-toggle:hover .lines-button:after,
+		.penci-menuhbg-toggle:hover .penci-lines:before,
+		.penci-menuhbg-toggle:hover .penci-lines:after{ background-color:#0069ff; }.site-header{ background-color:#182641; }.site-header{
+			box-shadow: inset 0 -1px 0 #182641;
+			-webkit-box-shadow: inset 0 -1px 0 #182641;
+			-moz-box-shadow: inset 0 -1px 0 #182641;
+		  }.site-header.header--s2:before, .site-header.header--s3:not(.header--s4):before, .site-header.header--s6:before{ background-color:#182641 !important }.main-navigation ul.menu > li > a{ color:#f7f7f7 }.header__search:not(.header__search_dis_bg) .search-click, .header__search_dis_bg .search-click{ color: #efefef }.penci-header-mobile .penci-header-mobile_container{ background-color:#182641; }.penci-header-mobile  .menu-toggle, .penci_dark_layout .menu-toggle{ color:#f7f7f7; }@media only screen and ( min-width: 1025px) { .penci-header-transparent .site-header-wrapper.penci-trans-nav .site-branding a { color: #ffffff }}@media only screen and ( min-width: 1025px) { .penci-header-transparent .penci-trans-nav .main-navigation > ul:not(.children) > li > a,.penci-header-transparent .site-header-wrapper.penci-trans-nav .header__social-media a,.penci-header-transparent .site-header-wrapper.penci-trans-nav .header__search .search-click{ color: #ffffff } }@media only screen and ( min-width: 1025px) { .penci-header-transparent .penci-trans-nav .penci-menuhbg-toggle .lines-button:after,.penci-header-transparent .site-header-wrapper.penci-trans-nav .penci-menuhbg-toggle .penci-lines:before,.penci-header-transparent .site-header-wrapper.penci-trans-nav .penci-menuhbg-toggle .penci-lines:after{ background-color: #ffffff } }@media only screen and ( min-width: 1025px) { .penci-header-transparent .penci-trans-nav .header__social-media a:hover,.penci-header-transparent .site-header-wrapper.penci-trans-nav .header__search .search-click:hover{ color: #111111 }.penci-header-transparent .site-header-wrapper.penci-trans-nav .penci-menuhbg-toggle:hover .lines-button:after,.penci-header-transparent .site-header-wrapper.penci-trans-nav .penci-menuhbg-toggle:hover .penci-lines:before,.penci-header-transparent .site-header-wrapper.penci-trans-nav .penci-menuhbg-toggle:hover .penci-lines:after{ background-color: #111111 } }#main .widget .tagcloud a{ }#main .widget .tagcloud a:hover{}.single .penci-cat-links a:hover, .page .penci-cat-links a:hover{ background-color:#ec407a; }.footer__sidebars{ background-color:#182641 ; }.footer__sidebars + .footer__bottom .footer__bottom_container:before{ background-color:#dd3333 ; }.footer__sidebars{ color:#d8d8d8 ; }.site-footer .widget ul li{ color:#d8d8d8 ; }.site-footer .widget-title,		
+		.site-footer .penci-block-vc .penci-slider-nav a,
+		.site-footer cite,
+		.site-footer .widget select,
+		.site-footer .mc4wp-form,
+		.site-footer .penci-block-vc .penci-slider-nav a.penci-pag-disabled,
+		.site-footer .penci-block-vc .penci-slider-nav a.penci-pag-disabled:hover{ color:#d8d8d8 ; }.site-footer input[type="text"], .site-footer input[type="email"],.site-footer input[type="url"], .site-footer input[type="password"],.site-footer input[type="search"], .site-footer input[type="number"],.site-footer input[type="tel"], .site-footer input[type="range"],.site-footer input[type="date"], .site-footer input[type="month"],.site-footer input[type="week"],.site-footer input[type="time"],.site-footer input[type="datetime"],.site-footer input[type="datetime-local"],.site-footer .widget .tagcloud a,.site-footer input[type="color"], .site-footer textarea{ color:#d8d8d8 ; }.site-footer .penci-block-vc .penci-block__title a, .site-footer .penci-block-vc .penci-block__title span,.footer-instagram h4.footer-instagram-title span{ color:#ffffff ; }.site-footer .penci-block-vc.style-title-3 .penci-block-heading:after{ background-color:#ffffff ; }.footer__sidebars .woocommerce.widget_shopping_cart .total,.footer__sidebars .woocommerce.widget_product_search input[type="search"],.footer__sidebars .woocommerce ul.cart_list li,.footer__sidebars .woocommerce ul.product_list_widget li,.site-footer .penci-recent-rv,.site-footer .penci-block_6 .penci-post-item,.site-footer .penci-block_10 .penci-post-item,.site-footer .penci-block_11 .block11_first_item, .site-footer .penci-block_11 .penci-post-item,.site-footer .penci-block_15 .penci-post-item,.site-footer .widget select,.footer__sidebars .woocommerce-product-details__short-description th,.footer__sidebars .woocommerce-product-details__short-description td,.site-footer .widget.widget_recent_entries li, .site-footer .widget.widget_recent_comments li, .site-footer .widget.widget_meta li,.site-footer input[type="text"], .site-footer input[type="email"],.site-footer input[type="url"], .site-footer input[type="password"],.site-footer input[type="search"], .site-footer input[type="number"],.site-footer input[type="tel"], .site-footer input[type="range"],.site-footer input[type="date"], .site-footer input[type="month"],.site-footer input[type="week"],.site-footer input[type="time"],.site-footer input[type="datetime"],.site-footer input[type="datetime-local"],.site-footer .widget .tagcloud a,.site-footer input[type="color"], .site-footer textarea{ border-color:#dedede ; }.site-footer select,.site-footer .woocommerce .woocommerce-product-search input[type="search"]{ border-color:#dedede ; }.site-footer .penci-block-vc .penci-block-heading,.footer-instagram h4.footer-instagram-title{ border-color:#bababa ; }.site-footer .widget ul li, .footer__sidebars li, .footer__sidebars a{ color:#cccccc ; }
+		.site-footer .widget .tagcloud a{ background: transparent; }
+		.site-footer .widget.widget_recent_entries li a, .site-footer .widget.widget_recent_comments li a, .site-footer .widget.widget_meta li a{color:#cccccc ;}.footer__sidebars .penci-block-vc .penci__post-title a{ color:#cccccc ; }.footer__sidebars a:hover { color:#ffffff ; }
+		.site-footer .widget .tagcloud a:hover{ background: #ffffff;color: #fff;border-color:#ffffff }.site-footer .widget.widget_recent_entries li a:hover,.site-footer .widget.widget_recent_comments li a:hover,.site-footer .widget.widget_meta li a:hover{ color:#ffffff ; }.footer__sidebars .penci-block-vc .penci__post-title a:hover{ color:#ffffff ; }.footer__copyright_menu{ background-color:#182641 ; }.site-info{ color:#92a3b0 ; }.sub-footer-menu li a { color:#92a3b0 ; }.sub-footer-menu li a:hover { color:#ffffff ; }.mobile-sidebar #sidebar-nav-logo a{font-family: 'Montserrat', sans-serif;font-weight: 500;}
+</style>
+<link rel='stylesheet' id='enlighterjs-css' href='https://techincent.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=3wiTfxkoMgE69Na' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css' href='https://techincent.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=6.1.1' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://techincent.com/wp-content/plugins/rocket-lazy-load/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type='text/javascript' src='https://techincent.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://techincent.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://techincent.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://techincent.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<meta name="generator" content="Site Kit by Google 1.89.0" /><script>
+var portfolioDataJs = portfolioDataJs || [];
+var penciBlocksArray=[];
+var PENCILOCALCACHE = {};
+		(function () {
+				"use strict";
+		
+				PENCILOCALCACHE = {
+					data: {},
+					remove: function ( ajaxFilterItem ) {
+						delete PENCILOCALCACHE.data[ajaxFilterItem];
+					},
+					exist: function ( ajaxFilterItem ) {
+						return PENCILOCALCACHE.data.hasOwnProperty( ajaxFilterItem ) && PENCILOCALCACHE.data[ajaxFilterItem] !== null;
+					},
+					get: function ( ajaxFilterItem ) {
+						return PENCILOCALCACHE.data[ajaxFilterItem];
+					},
+					set: function ( ajaxFilterItem, cachedData ) {
+						PENCILOCALCACHE.remove( ajaxFilterItem );
+						PENCILOCALCACHE.data[ajaxFilterItem] = cachedData;
+					}
+				};
+			}
+		)();function penciBlock() {
+		    this.atts_json = '';
+		    this.content = '';
+		}</script>
+		<style type="text/css">
+																										</style>
+				<style type="text/css">
+																																													
+					</style>
+		<style>.ez-toc-container-direction {direction: ltr;}.ez-toc-counter ul {direction: ltr;counter-reset: item;}.ez-toc-counter nav ul li a::before {content: counter(item, numeric) ". ";margin-right: .2em; counter-increment: item;flex-grow: 0;flex-shrink: 0;float: left;	}.ez-toc-widget-direction {direction: ltr;}.ez-toc-widget-container ul {direction: ltr;counter-reset: item;}.ez-toc-widget-container nav ul li a::before {content: counter(item, numeric) ". ";margin-right: .2em; counter-increment: item;flex-grow: 0;flex-shrink: 0;float: left;	}</style><!-- analytic and ads included -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144995697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144995697-1');
+</script>
+<script data-ad-client="ca-pub-6922458926245751" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "organization",
+    "@id": "#organization",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/techincent.com\/wp-content\/uploads\/2019\/10\/tehcincent-logo.png"
+    },
+    "url": "https:\/\/techincent.com\/",
+    "name": "Tech Incent",
+    "description": "Software engineer blog"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WebSite",
+    "name": "Tech Incent",
+    "alternateName": "Software engineer blog",
+    "url": "https:\/\/techincent.com\/"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Sidebar Right",
+    "alternateName": "Add widgets here to display them on blog and single",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Sidebar Left",
+    "alternateName": "Add widgets here to display them on page",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Footer Column #1",
+    "alternateName": "Add widgets here to display them in the first column of the footer",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Footer Column #2",
+    "alternateName": "Add widgets here to display them in the second column of the footer",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Footer Column #3",
+    "alternateName": "Add widgets here to display them in the third column of the footer",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Footer Column #4",
+    "alternateName": "Add widgets here to display them in the fourth column of the footer",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Portfolio Sidebar Left",
+    "alternateName": "This sidebar for Portfolio Detail, if this sidebar is empty, will display Main Sidebar",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Angular Sidebar Right",
+    "alternateName": "",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><script type="application/ld+json">{
+    "@context": "http:\/\/schema.org\/",
+    "@type": "WPSideBar",
+    "name": "Table Of Content",
+    "alternateName": "",
+    "url": "https:\/\/techincent.com\/demo\/spirit\/fonts\/glyphicons-halflings-regular.woff2"
+}</script><meta property="fb:app_id" content="348280475330978"><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f9fafe; }
+</style>
+	<link rel="icon" href="https://techincent.com/wp-content/uploads/2019/09/cropped-favicon-5-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://techincent.com/wp-content/uploads/2019/09/cropped-favicon-5-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://techincent.com/wp-content/uploads/2019/09/cropped-favicon-5-180x180.png" />
+<meta name="msapplication-TileImage" content="https://techincent.com/wp-content/uploads/2019/09/cropped-favicon-5-270x270.png" />
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<style>
+		a.custom-button.pencisc-button {
+			background: transparent;
+			color: #D3347B;
+			border: 2px solid #D3347B;
+			line-height: 36px;
+			padding: 0 20px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		a.custom-button.pencisc-button:hover {
+			background: #D3347B;
+			color: #fff;
+			border: 2px solid #D3347B;
+		}
+		a.custom-button.pencisc-button.pencisc-small {
+			line-height: 28px;
+			font-size: 12px;
+		}
+		a.custom-button.pencisc-button.pencisc-large {
+			line-height: 46px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body class="error404 custom-background wp-custom-logo group-blog hfeed header-sticky penci_enable_ajaxsearch penci_sticky_content_sidebar penci_dis_padding_bw wpb-js-composer js-comp-ver-6.8.0 vc_responsive">
+
+<div id="page" class="site">
+	<div class="site-header-wrapper"><header id="masthead" class="site-header header--s10" data-height="110" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+	<div class="penci-container-fluid">
+	
+<div class="site-branding">
+	
+		<h2><a href="https://techincent.com/" class="custom-logo-link" rel="home"><img width="230" height="35" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20230%2035'%3E%3C/svg%3E" class="custom-logo" alt="tehcincent" decoding="async" loading="lazy" data-lazy-src="https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png" /><noscript><img width="230" height="35" src="https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png" class="custom-logo" alt="tehcincent" decoding="async" loading="lazy" /></noscript></a></h2>
+				</div><!-- .site-branding -->
+	<div class="header__social-search">
+				<div class="header__search" id="top-search">
+			<a class="search-click"><i class="fa fa-search"></i></a>
+			<div class="show-search">
+	<div class="show-search__content">
+		<form method="get" class="search-form" action="https://techincent.com/">
+			<label>
+				<span class="screen-reader-text">Search for:</span>
+
+								<input id="penci-header-search" type="search" class="search-field" placeholder="Enter keyword..." value="" name="s" autocomplete="off">
+			</label>
+			<button type="submit" class="search-submit">
+				<i class="fa fa-search"></i>
+				<span class="screen-reader-text">Search</span>
+			</button>
+		</form>
+		<div class="penci-ajax-search-results">
+			<div id="penci-ajax-search-results-wrapper" class="penci-ajax-search-results-wrapper"></div>
+		</div>
+	</div>
+</div>		</div>
+	
+			<div class="header__social-media">
+			<div class="header__content-social-media">
+
+									</div>
+		</div>
+	
+</div>
+
+	<nav id="site-navigation" class="main-navigation penci_disable_padding_menu penci_enable_line_menu pencimn-slide_down" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<ul id="menu-main-menu" class="menu"><li id="menu-item-5948" class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu penci-megamenu-width1080 menu-item-5948"><a href="https://techincent.com/category/django/" itemprop="url">Django</a>
+<ul class="sub-menu">
+	<li id="menu-item-0" class="menu-item-0"><div class="penci-megamenu">			<div class="penci-content-megamenu penci-content-megamenu-style-1">
+		<div class="penci-mega-latest-posts col-mn-5 mega-row-1 ">
+											<div class="penci-mega-row penci-mega-239 row-active" data-current="1" data-blockUid="penci_megamenu__5586" >
+					<div id="penci_megamenu__5586block_content" class="penci-block_content penci-mega-row_content">
+						<div class="penci-mega-post penci-mega-post-1 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/django/">Django</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/07/how-to-create-django-form-280x186.jpg" data-delay="" href="https://techincent.com/how-to-create-django-form/" title="How to create Django form?"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/how-to-create-django-form/">How to create Django form?</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>04/07/2021</p></div></div><div class="penci-mega-post penci-mega-post-2 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/django/">Django</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/07/render-django-form-fields-manually-280x186.jpg" data-delay="" href="https://techincent.com/render-django-form-individual-fields-manually/" title="How to render Django form individual fields manually?"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/render-django-form-individual-fields-manually/">How to render Django form individual fields manually?</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>03/07/2021</p></div></div><div class="penci-mega-post penci-mega-post-3 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/django/">Django</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/07/setup-django-virtual-environment-280x186.jpg" data-delay="" href="https://techincent.com/create-virtual-environment-for-django/" title="How to create a virtual environment for Django?"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/create-virtual-environment-for-django/">How to create a virtual environment for Django?</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>01/07/2021</p></div></div><div class="penci-mega-post penci-mega-post-4 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/django/">Django</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/07/django-design-principles-280x186.jpg" data-delay="" href="https://techincent.com/django-design-principles/" title="Understanding Django and django design principles"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/django-design-principles/">Understanding Django and django design principles</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>01/07/2021</p></div></div><div class="penci-mega-post penci-mega-post-5 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/django/">Django</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/06/explained-django-inline-formset-factory-with-example-280x186.jpg" data-delay="" href="https://techincent.com/explained-django-inline-formset-factory-with-example/" title="Explained Django inline formset factory with example?"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/explained-django-inline-formset-factory-with-example/">Explained Django inline formset factory with example?</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>08/06/2021</p></div></div><div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>					</div>
+					<script>if( typeof(penciBlock) === "undefined" ) {function penciBlock() {
+		    this.atts_json = '';
+		    this.content = '';
+		}}var penciBlocksArray = penciBlocksArray || [];var PENCILOCALCACHE = PENCILOCALCACHE || {};var penci_megamenu__5586 = new penciBlock();penci_megamenu__5586.blockID="penci_megamenu__5586";penci_megamenu__5586.atts_json = '{"showposts":5,"style_pag":"next_prev","post_types":"post","block_id":"penci_megamenu__5586","paged":1,"unique_id":"penci_megamenu__5586","shortcode_id":"megamenu","cat_id":239,"tax":"category","category_ids":"","taxonomy":""}';penciBlocksArray.push(penci_megamenu__5586);</script>
+									</div>
+												<div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>		</div>
+	</div>
+
+	</div></li>
+</ul>
+</li>
+<li id="menu-item-6267" class="menu-item menu-item-type-taxonomy menu-item-object-category penci-mega-menu penci-megamenu-container menu-item-6267"><a href="https://techincent.com/category/angular/" itemprop="url">Angular</a>
+<ul class="sub-menu">
+	<li class="menu-item-0"><div class="penci-megamenu">			<div class="penci-content-megamenu penci-content-megamenu-style-1">
+		<div class="penci-mega-latest-posts col-mn-6 mega-row-2 ">
+											<div class="penci-mega-row penci-mega-275 row-active" data-current="1" data-blockUid="penci_megamenu__34045" >
+					<div id="penci_megamenu__34045block_content" class="penci-block_content penci-mega-row_content">
+						<div class="penci-mega-post penci-mega-post-1 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2022/05/angular-reactive-service-preview.gif" data-delay="" href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/" title="Implement angular (product) details page with reactive service"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/">Implement angular (product) details page with reactive service</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>21/05/2022</p></div></div><div class="penci-mega-post penci-mega-post-2 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2022/04/angular-code-editor-280x186.jpg" data-delay="" href="https://techincent.com/angular-code-editor/" title="Angular code (JSON, YAML, TypeScript) editor example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-code-editor/">Angular code (JSON, YAML, TypeScript) editor example</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>17/04/2022</p></div></div><div class="penci-mega-post penci-mega-post-3 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2022/03/dockerize-angular-app-280x186.jpg" data-delay="" href="https://techincent.com/dockerize-angular-app-with-example/" title="Dockerize angular app with example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/dockerize-angular-app-with-example/">Dockerize angular app with example</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>09/03/2022</p></div></div><div class="penci-mega-post penci-mega-post-4 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2022/02/angular-jwt-auth-280x186.jpg" data-delay="" href="https://techincent.com/angular-jwt-auth/" title="Angular JWT token authentication (login, auth and error interceptors, guard, protected route) example: Step by step"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-jwt-auth/">Angular JWT token authentication (login, auth and error&#8230;</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>19/02/2022</p></div></div><div class="penci-mega-post penci-mega-post-5 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/12/angular-lifecycle-hooks-280x186.jpg" data-delay="" href="https://techincent.com/angular-lifecycle-hooks/" title="Angular lifecycle hooks explanation"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-lifecycle-hooks/">Angular lifecycle hooks explanation</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>25/12/2021</p></div></div><div class="penci-mega-post penci-mega-post-6 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/11/switchmap-operator-280x186.jpg" data-delay="" href="https://techincent.com/switchmap-operator/" title="Explained RxJs switchMap operator with example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/switchmap-operator/">Explained RxJs switchMap operator with example</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>24/11/2021</p></div></div><div class="penci-mega-post penci-mega-post-7 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/11/angular-form-builder-280x186.jpg" data-delay="" href="https://techincent.com/angular-form-builder/" title="Create forms using angular FormBulder"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-form-builder/">Create forms using angular FormBulder</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>05/11/2021</p></div></div><div class="penci-mega-post penci-mega-post-8 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/10/angular-reactive-form-280x186.jpg" data-delay="" href="https://techincent.com/angular-reactive-form/" title="Angular reactive form complete example: step-by-step"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-reactive-form/">Angular reactive form complete example: step-by-step</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>30/10/2021</p></div></div><div class="penci-mega-post penci-mega-post-9 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/10/angular-bootstrap-date-picker-example-280x186.jpg" data-delay="" href="https://techincent.com/angular-bootstrap-date-picker-example/" title="Angular bootstrap date picker example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-bootstrap-date-picker-example/">Angular bootstrap date picker example</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>23/10/2021</p></div></div><div class="penci-mega-post penci-mega-post-10 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/10/angular-material-table-280x186.jpg" data-delay="" href="https://techincent.com/angular-material-table/" title="Angular material data table, sort, pagination, filter &#8211; complete example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/angular-material-table/">Angular material data table, sort, pagination, filter &#8211;&#8230;</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>17/10/2021</p></div></div><div class="penci-mega-post penci-mega-post-11 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/uploads/2021/10/how-to-add-chart-js-in-angular-280x186.jpg" data-delay="" href="https://techincent.com/how-to-add-chart-js-in-angular/" title="How to add chart js in angular?"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/how-to-add-chart-js-in-angular/">How to add chart js in angular?</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>11/10/2021</p></div></div><div class="penci-mega-post penci-mega-post-12 penci-imgtype-landscape"><div class="penci-mega-thumbnail"><a class="mega-cat-name" href="https://techincent.com/category/angular/">Angular</a><a class="penci-image-holder  penci-lazy"  data-src="https://techincent.com/wp-content/themes/pennews/images/no-thumb.jpg" data-delay="" href="https://techincent.com/most-commonly-used-rxjs-operators/" title="Most Commonly Used RxJS Operators With Example"></a></div><div class="penci-mega-meta "><h3 class="post-mega-title entry-title"> <a href="https://techincent.com/most-commonly-used-rxjs-operators/">Most Commonly Used RxJS Operators With Example</a></h3><p class="penci-mega-date"><i class="fa fa-clock-o"></i>16/08/2021</p></div></div><div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>					</div>
+					<script>if( typeof(penciBlock) === "undefined" ) {function penciBlock() {
+		    this.atts_json = '';
+		    this.content = '';
+		}}var penciBlocksArray = penciBlocksArray || [];var PENCILOCALCACHE = PENCILOCALCACHE || {};var penci_megamenu__34045 = new penciBlock();penci_megamenu__34045.blockID="penci_megamenu__34045";penci_megamenu__34045.atts_json = '{"showposts":12,"style_pag":"next_prev","post_types":"post","block_id":"penci_megamenu__34045","paged":1,"unique_id":"penci_megamenu__34045","shortcode_id":"megamenu","cat_id":275,"tax":"category","category_ids":"","taxonomy":""}';penciBlocksArray.push(penci_megamenu__34045);</script>
+									</div>
+												<div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>		</div>
+	</div>
+
+	</div></li>
+</ul>
+</li>
+<li id="menu-item-5949" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5949"><a href="https://techincent.com/category/react/" itemprop="url">React</a></li>
+<li id="menu-item-6657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6657"><a href="https://techincent.com/category/javascript-snippets/" itemprop="url">JavaScript Snippets</a></li>
+<li id="menu-item-5835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5835"><a href="https://techincent.com/works/" itemprop="url">Portfolio</a></li>
+</ul>
+</nav><!-- #site-navigation -->
+	</div>
+</header><!-- #masthead -->
+</div><div class="penci-header-mobile" >
+	<div class="penci-header-mobile_container">
+        <button class="menu-toggle navbar-toggle" aria-expanded="false"><span class="screen-reader-text">Primary Menu</span><i class="fa fa-bars"></i></button>
+										<div class="site-branding"> <a href="https://techincent.com/" class="custom-logo-link logo_header_mobile"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Tech Incent" data-lazy-src="https://techincent.com/wp-content/uploads/2019/10/techincent-mobile.png"/><noscript><img src="https://techincent.com/wp-content/uploads/2019/10/techincent-mobile.png" alt="Tech Incent"/></noscript></a></div>
+								<div class="header__search-mobile header__search" id="top-search-mobile">
+				<a class="search-click"><i class="fa fa-search"></i></a>
+				<div class="show-search">
+					<div class="show-search__content">
+						<form method="get" class="search-form" action="https://techincent.com/">
+							<label>
+								<span class="screen-reader-text">Search for:</span>
+																<input  type="text" id="penci-search-field-mobile" class="search-field penci-search-field-mobile" placeholder="Enter keyword..." value="" name="s" autocomplete="off">
+							</label>
+							<button type="submit" class="search-submit">
+								<i class="fa fa-search"></i>
+								<span class="screen-reader-text">Search</span>
+							</button>
+						</form>
+						<div class="penci-ajax-search-results">
+							<div class="penci-ajax-search-results-wrapper"></div>
+							<div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+</div>	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" >
+			<div class="penci-container-fluid">
+				<section class="error-404 not-found">
+					<header class="page-header">
+						<div class="error-404__image">
+													</div>
+						<h1 class="page-title">404 PAGE NOT FOUND</h1>
+					</header><!-- .page-header -->
+
+					<div class="page-content">
+						<p>This page couldn't be found! Back to <a href="https://techincent.com/"> Home Page</a> if you like. Please use search for help!</p>
+
+						<form method="get" class="search-form" action="https://techincent.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Enter keyword..." value="" name="s">
+	</label>
+	<button type="submit" class="search-submit">
+		<i class="fa fa-search"></i>
+		<span class="screen-reader-text">Search</span>
+	</button>
+</form>
+					</div><!-- .page-content -->
+				</section><!-- .error-404 -->
+				
+					<div id="penci_block_14__46732540" class="penci-block-vc penci-block_14 penci__general-meta style-title-1 left penci-block-load_more penci-imgtype-landscape penci-link-filter-hidden penci-vc-column-1" data-current="1" data-blockUid="penci_block_14__46732540" >
+		<div class="penci-block-heading">
+			<h3 class="penci-block__title"><a href="#" title="Latest News">Latest News</a ></h3>								</div>
+		<div id="penci_block_14__46732540block_content" class="penci-block_content">
+			<div class="penci-block_content__items penci-block-items__1"><article  class="penci-post-item__1 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2021/11/react-bootstrap-form-output-480x320.jpg" data-delay="" href="https://techincent.com/react-bootstrap-form-example/" title="React bootstrap form example"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/react/" title="View all posts in React" >React</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/react-bootstrap-form-example/" title=" React bootstrap form example ">React bootstrap form example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/techincent/">Tech Incent</a></span><time class="entry-date published" datetime="2022-05-22T16:23:17+00:00">22/05/2022</time><time class="updated" datetime="2022-05-23T14:24:15+00:00">23/05/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-05-22T16:23:17+00:00">22/05/2022</time><time class="updated" datetime="2022-05-23T14:24:15+00:00">23/05/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/react-bootstrap-form-example/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p7234">62</span></span></div><div class="penci-post-excerpt">The front-end framework React-Bootstrap was created with react in mind. Form Component allows you to...</div></div></article><article  class="penci-post-item__2 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2022/05/angular-reactive-service-preview.gif" data-delay="" href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/" title="Implement angular (product) details page with reactive service"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/" title=" Implement angular (product) details page with reactive service ">Implement angular (product) details page with reactive service</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-05-21T15:57:36+00:00">21/05/2022</time><time class="updated" datetime="2022-05-21T15:59:38+00:00">21/05/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-05-21T15:57:36+00:00">21/05/2022</time><time class="updated" datetime="2022-05-21T15:59:38+00:00">21/05/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p7591">56</span></span></div><div class="penci-post-excerpt">In this article, I am implementing product details based on the product_slug route param. I...</div></div></article><article  class="penci-post-item__3 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2022/04/angular-code-editor-480x320.jpg" data-delay="" href="https://techincent.com/angular-code-editor/" title="Angular code (JSON, YAML, TypeScript) editor example"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/angular-code-editor/" title=" Angular code (JSON, YAML, TypeScript) editor example ">Angular code (JSON, YAML, TypeScript) editor example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-04-17T17:06:59+00:00">17/04/2022</time><time class="updated" datetime="2022-04-17T17:09:32+00:00">17/04/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-04-17T17:06:59+00:00">17/04/2022</time><time class="updated" datetime="2022-04-17T17:09:32+00:00">17/04/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/angular-code-editor/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p7550">70</span></span></div><div class="penci-post-excerpt">In this article, I will build a generic code editor component. I will show the...</div></div></article><article  class="penci-post-item__4 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2022/03/dockerize-angular-app-480x320.jpg" data-delay="" href="https://techincent.com/dockerize-angular-app-with-example/" title="Dockerize angular app with example"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/dockerize-angular-app-with-example/" title=" Dockerize angular app with example ">Dockerize angular app with example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-03-09T17:58:06+00:00">09/03/2022</time><time class="updated" datetime="2022-03-09T17:58:10+00:00">09/03/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-03-09T17:58:06+00:00">09/03/2022</time><time class="updated" datetime="2022-03-09T17:58:10+00:00">09/03/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/dockerize-angular-app-with-example/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p7461">99</span></span></div><div class="penci-post-excerpt">In this article, I will show you, A complete tutorial to build an Angular application...</div></div></article><article  class="penci-post-item__5 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2022/02/angular-jwt-auth-480x320.jpg" data-delay="" href="https://techincent.com/angular-jwt-auth/" title="Angular JWT token authentication (login, auth and error interceptors, guard, protected route) example: Step by step"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/angular-jwt-auth/" title=" Angular JWT token authentication (login, auth and error interceptors, guard, protected route) example: Step by step ">Angular JWT token authentication (login, auth and error interceptors, guard, protected route) example: Step by step</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-02-19T14:15:09+00:00">19/02/2022</time><time class="updated" datetime="2022-02-19T16:14:40+00:00">19/02/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-02-19T14:15:09+00:00">19/02/2022</time><time class="updated" datetime="2022-02-19T16:14:40+00:00">19/02/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/angular-jwt-auth/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p6568">171</span></span></div><div class="penci-post-excerpt">In this article, I will implement and explain the complete angular project feature with the...</div></div></article><article  class="penci-post-item__6 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2021/12/angular-lifecycle-hooks-480x320.jpg" data-delay="" href="https://techincent.com/angular-lifecycle-hooks/" title="Angular lifecycle hooks explanation"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/angular-lifecycle-hooks/" title=" Angular lifecycle hooks explanation ">Angular lifecycle hooks explanation</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2021-12-25T14:34:42+00:00">25/12/2021</time><time class="updated" datetime="2022-02-19T16:57:08+00:00">19/02/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2021-12-25T14:34:42+00:00">25/12/2021</time><time class="updated" datetime="2022-02-19T16:57:08+00:00">19/02/2022</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/angular-lifecycle-hooks/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p6920">131</span></span></div><div class="penci-post-excerpt">All the components and directives have a lifecycle to angular components and directives creates, update,...</div></div></article><article  class="penci-post-item__7 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2021/11/switchmap-operator-480x320.jpg" data-delay="" href="https://techincent.com/switchmap-operator/" title="Explained RxJs switchMap operator with example"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/angular/" title="View all posts in Angular" >Angular</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/switchmap-operator/" title=" Explained RxJs switchMap operator with example ">Explained RxJs switchMap operator with example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2021-11-24T14:15:12+00:00">24/11/2021</time><time class="updated" datetime="2021-11-24T14:15:14+00:00">24/11/2021</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2021-11-24T14:15:12+00:00">24/11/2021</time><time class="updated" datetime="2021-11-24T14:15:14+00:00">24/11/2021</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/switchmap-operator/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p6918">139</span></span></div><div class="penci-post-excerpt">SwitchMap is an RxJs operator which allows us to trigger some emission whenever another observable...</div></div></article><article  class="penci-post-item__8 hentry penci-post-item"><div class="penci_post_thumb"><a class="penci-image-holder  penci-lazy penci-image_has_icon"  data-src="https://techincent.com/wp-content/uploads/2021/11/react-vs-react-native-1-480x320.jpg" data-delay="" href="https://techincent.com/react-vs-react-native/" title="React vs React Native &#8211; Differences and Comparison"></a><div class="entry-meta-item penci-post-cat"><a class="penci-cat-name" href="https://techincent.com/category/react/" title="View all posts in React" >React</a></div></div><div class="penci_post_content"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/react-vs-react-native/" title=" React vs React Native &#8211; Differences and Comparison ">React vs React Native &#8211; Differences and Comparison</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/techincent/">Tech Incent</a></span><time class="entry-date published" datetime="2021-11-10T14:00:47+00:00">10/11/2021</time><time class="updated" datetime="2021-11-10T14:00:50+00:00">10/11/2021</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2021-11-10T14:00:47+00:00">10/11/2021</time><time class="updated" datetime="2021-11-10T14:00:50+00:00">10/11/2021</time></span><span class="entry-meta-item penci-comment-count"><a class="penci_pmeta-link" href="https://techincent.com/react-vs-react-native/#respond"><i class="la la-comments"></i>0</a></span><span class="entry-meta-item penci-post-countview penci_post-meta_item"><i class="fa fa-eye"></i><span class="penci-post-countview-number penci-post-countview-p7085">105</span></span></div><div class="penci-post-excerpt">React What is React? React is a JavaScript library that can be used to create...</div></div></article></div><div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>		</div>
+		<div class="penci-pagination penci-ajax-more penci-pag-center">
+				    <a class="penci-block-ajax-more-button button " data-mes="Sorry, No more posts" data-block_id="penci_block_14__46732540block_content" >
+				     <span class="ajax-more-text">Load more posts</span><span class="ajaxdot"></span><i class="fa fa-refresh"></i>
+				    </a>
+				   </div>	</div>
+<style>@media screen and (min-width: 768px ){#penci_block_14__46732540 .penci-ajax-more .penci-block-ajax-more-button{ padding-top:0; font-size:13px !important; }}#penci_block_14__46732540 .penci-pmore-link .more-link{ font-family:"Mukta Vaani";font-weight:500; }</style><script>if( typeof(penciBlock) === "undefined" ) {function penciBlock() {
+		    this.atts_json = '';
+		    this.content = '';
+		}}var penciBlocksArray = penciBlocksArray || [];var PENCILOCALCACHE = PENCILOCALCACHE || {};var penci_block_14__46732540 = new penciBlock();penci_block_14__46732540.blockID="penci_block_14__46732540";penci_block_14__46732540.atts_json = '{"build_query":"post_type:post|size:8","add_title_icon":"","title_i_align":"left","title_icon":"","image_type":"landscape","image_ratio":0.67,"image_size":"penci-thumb-480-320","block_title_meta_settings":"","block_title_align":"left","block_title_off_uppercase":"","block_title_wborder_left_right":"5px","block_title_wborder":"3px","post_title_trimword_settings":"","post_standard_title_length":20,"hide_comment":"","hide_post_date":"","hide_icon_post_format":"","hide_cat":"","show_allcat":"","hide_count_view":"","hide_review_piechart":"","show_readmore":"","show_author":"","dis_bg_block":"","enable_stiky_post":"","hide_excrept":"","post_excrept_length":"15","style_pag":"load_more","limit_loadmore":4,"readmore_css":"","post_category_css":"","pagination_css":"","loadmore_css":"","disable_bg_load_more":"","custom_markup_1":"","ajax_filter_type":"","ajax_filter_selected":"","ajax_filter_childselected":"","ajax_filter_number_item":"5","infeed_ads__order":"2","block_id":"","penci_show_desk":"Yes","penci_show_tablet":"Yes","penci_show_mobile":"Yes","paged":1,"unique_id":"penci_block_14__46732540","shortcode_id":"block_14","category_ids":"","taxonomy":""}';penci_block_14__46732540.content="";penciBlocksArray.push(penci_block_14__46732540);</script>				
+			</div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+		<meta itemprop="name" content="Webpage footer for Tech Incent"/>
+		<meta itemprop="description" content="Software engineer blog"/>
+		<meta itemprop="keywords" content="Data Protection, Copyright Data"/>
+		<meta itemprop="copyrightYear" content="2022"/>
+		<meta itemprop="copyrightHolder" content="Tech Incent"/>
+				<div id="footer__sidebars" class="footer__sidebars footer__sidebar-col-4 footer__sidebars-style-4">
+	<div class="footer__sidebars-inner penci-container-fluid">
+		<div class="row">
+							<div id="footer-1" class="footer-sidebar-item footer-1 penci-col-3">
+					<div id="nav_menu-2" class="widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_nav_menu"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>Useful Links</span></h4></div><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-7028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7028"><a href="https://techincent.com/about/">About</a></li>
+<li id="menu-item-7027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7027"><a href="https://techincent.com/contact/">Contact</a></li>
+<li id="menu-item-5335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5335"><a href="https://techincent.com/disclosure/">Disclosure</a></li>
+<li id="menu-item-5336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5336"><a href="https://techincent.com/disclaimer/">Disclaimer</a></li>
+<li id="menu-item-5338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-5338"><a href="https://techincent.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-7456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7456"><a href="https://techincent.com/sponsor/">Sponsorship</a></li>
+<li id="menu-item-7337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7337"><a href="https://storerestapi.com">Fake Store Api</a></li>
+</ul></div></div>				</div>
+							<div id="footer-2" class="footer-sidebar-item footer-2 penci-col-3">
+					<div id="penci-popular-cat--82941" class="penci-block-popular-cat  widget penci-block-vc widget_categories widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left penci-block-vc penci-widget penci-popular_category penci-widget__popular_category left penci-link-filter-hidden penci-vc-column-1">
+	<div class="penci-block-heading">
+		<h3 class="penci-block__title"><span>Categories</span></h3>	</div>
+	<ul>
+			<li class="cat-item cat-item-275"><a href="https://techincent.com/category/angular/">Angular <span class="category-item-count">(21)</span></a>
+</li>
+	<li class="cat-item cat-item-239"><a href="https://techincent.com/category/django/">Django <span class="category-item-count">(14)</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-289"><a href="https://techincent.com/category/django/django-form/">Django Form <span class="category-item-count">(3)</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-346"><a href="https://techincent.com/category/javascript-snippets/">JavaScript Snippets <span class="category-item-count">(5)</span></a>
+</li>
+	<li class="cat-item cat-item-345"><a href="https://techincent.com/category/node/">Node <span class="category-item-count">(1)</span></a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://techincent.com/category/others/">Others <span class="category-item-count">(32)</span></a>
+</li>
+	<li class="cat-item cat-item-240"><a href="https://techincent.com/category/react/">React <span class="category-item-count">(5)</span></a>
+</li>
+	</ul>
+</div>
+				</div>
+							<div id="footer-3" class="footer-sidebar-item footer-3 penci-col-3">
+						<div id="penci_block_6__97385491" class="penci-block-vc penci-block_6 penci__general-meta widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left penci-block-vc penci-widget penci-block_6 penci-widget__block_6 left penci-imgtype-landscape penci-link-filter-hidden penci-vc-column-1" data-current="1" data-blockUid="penci_block_6__97385491" >
+		<div class="penci-block-heading">
+			<h3 class="penci-block__title"><span>Recent Posts</span></h3>								</div>
+		<div id="penci_block_6__97385491block_content" class="penci-block_content">
+			<div class="penci-block_content__items penci-block-items__1"><article  class="hentry penci-post-item"><div class="penci_media_object "><div class="penci_post_content penci_mobj__body"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/react-bootstrap-form-example/" title=" React bootstrap form example ">React bootstrap form example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/techincent/">Tech Incent</a></span><time class="entry-date published" datetime="2022-05-22T16:23:17+00:00">22/05/2022</time><time class="updated" datetime="2022-05-23T14:24:15+00:00">23/05/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-05-22T16:23:17+00:00">22/05/2022</time><time class="updated" datetime="2022-05-23T14:24:15+00:00">23/05/2022</time></span></div></div></div></article><article  class="hentry penci-post-item"><div class="penci_media_object "><div class="penci_post_content penci_mobj__body"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/implement-angular-product-details-page-with-reactive-service/" title=" Implement angular (product) details page with reactive service ">Implement angular (product) details page with reactive service</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-05-21T15:57:36+00:00">21/05/2022</time><time class="updated" datetime="2022-05-21T15:59:38+00:00">21/05/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-05-21T15:57:36+00:00">21/05/2022</time><time class="updated" datetime="2022-05-21T15:59:38+00:00">21/05/2022</time></span></div></div></div></article><article  class="hentry penci-post-item"><div class="penci_media_object "><div class="penci_post_content penci_mobj__body"><h3 class="penci__post-title entry-title"><a href="https://techincent.com/angular-code-editor/" title=" Angular code (JSON, YAML, TypeScript) editor example ">Angular code (JSON, YAML, TypeScript) editor example</a></h3><div class="penci-schema-markup"><span class="author vcard"><a class="url fn n" href="https://techincent.com/author/sajalmia/">Sajal Mia</a></span><time class="entry-date published" datetime="2022-04-17T17:06:59+00:00">17/04/2022</time><time class="updated" datetime="2022-04-17T17:09:32+00:00">17/04/2022</time></div><div class="penci_post-meta"><span class="entry-meta-item penci-posted-on"><i class="fa fa-clock-o"></i><time class="entry-date published" datetime="2022-04-17T17:06:59+00:00">17/04/2022</time><time class="updated" datetime="2022-04-17T17:09:32+00:00">17/04/2022</time></span></div></div></div></article></div><div class="penci-loader-effect penci-loading-animation-5 penci-three-bounce"><div class="penci-loading-animation one"></div><div class="penci-loading-animation two"></div><div class="penci-loading-animation three"></div></div>		</div>
+			</div>
+<style>@media screen and (min-width: 768px ){}#penci_block_6__97385491 .penci-subcat-filter .penci-subcat-item a,#penci_block_6__97385491 .penci-subcat-list .flexMenu-viewMore > a{ font-family:"Roboto";font-weight:600; }#penci_block_6__97385491 .penci__post-title{ font-family:"Nunito";font-weight:600; }@media screen and (min-width: 768px ){#penci_block_6__97385491 .penci__post-title{ font-size:13px !important; }}</style><script>if( typeof(penciBlock) === "undefined" ) {function penciBlock() {
+		    this.atts_json = '';
+		    this.content = '';
+		}}var penciBlocksArray = penciBlocksArray || [];var PENCILOCALCACHE = PENCILOCALCACHE || {};var penci_block_6__97385491 = new penciBlock();penci_block_6__97385491.blockID="penci_block_6__97385491";penci_block_6__97385491.atts_json = '{"build_query":"post_type:post|size:3","add_title_icon":"","title_i_align":"left","title_icon":"","hide_thumb":"1","thumb_pos":"left","replace_feat_author":"","image_type":"landscape","image_ratio":"","image_size":"penci-thumb-280-186","block_title_meta_settings":"","block_title_align":"left","block_title_off_uppercase":"","block_title_wborder_left_right":"5px","block_title_wborder":"3px","hide_post_date":"","hide_icon_post_format":"","hide_comment":"1","show_author":"","show_count_view":"","dis_bg_block":"","enable_stiky_post":"","post_title_trimword_settings":"","post_standard_title_length":"20","style_pag":"","limit_loadmore":"3","pagination_css":"","loadmore_css":"","disable_bg_load_more":"","custom_markup_1":"","ajax_filter_type":"","ajax_filter_selected":"","ajax_filter_childselected":"","ajax_filter_number_item":"5","infeed_ads__order":"","block_id":"penci-widget__block_6-2","penci_show_desk":"Yes","penci_show_tablet":"Yes","penci_show_mobile":"Yes","paged":1,"unique_id":"penci_block_6__97385491","shortcode_id":"block_6","category_ids":"","taxonomy":""}';penci_block_6__97385491.content="";penciBlocksArray.push(penci_block_6__97385491);</script>				</div>
+							<div id="footer-4" class="footer-sidebar-item footer-4 penci-col-3">
+					<div id="mc4wp_form_widget-2" class="widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left widget_mc4wp_form_widget"><div class="penci-block-heading"><h4 class="widget-title penci-block__title"><span>Newsletter Subscriptions</span></h4></div><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-5827" method="post" data-id="5827" data-name="Default sign-up form" ><div class="mc4wp-form-fields"><p class="mdes">Subscribe my Newsletter for latest snippets blogs and special updates.</p>
+<div style="display:flex;margin-top: 10px;">
+  <input style="border-radius: 6px 0 0 6px;border-right: 0;" type="email" id="mc4wp_email" name="EMAIL" placeholder="Email..." required />
+	<button type="submit" style="border-radius: 0 6px 6px 0"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+</div>
+</div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1670955045" /><input type="hidden" name="_mc4wp_form_id" value="5827" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	<div id="penci-social-counter--28747" class="penci-block-vc penci-social-counter penci-social-counter--style-2 widget footer-widget penci-block-vc penci-fwidget-sidebar style-title-1 style-title-left penci-block-vc penci-widget penci-social_counter penci-widget__social_counter left penci-link-filter-hidden penci-vc-column-1">
+		<div class="penci-block-heading">
+			<h3 class="penci-block__title"><span>Stay Connect With Us</span></h3>		</div>
+		<div class="penci-block_content">
+			<div class="penci-social__item penci-social__facebook penci-social__empty"><div class="penci-social__content"><a href="https://www.facebook.com/techincentblog" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></div></div><div class="penci-social__item penci-social__pinterest penci-social__empty"><div class="penci-social__content"><a href="https://www.pinterest.com/techincent" target="_blank" rel="noopener"><i class="fa fa-pinterest"></i></a></div></div><div class="penci-social__item penci-social__linkedin penci-social__empty"><div class="penci-social__content"><a href="https://www.linkedin.com/company/techincent/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></div></div><div class="penci-social__item penci-social__github penci-social__empty"><div class="penci-social__content"><a href="https://github.com/sajalmia381" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></div></div>		</div>
+	</div>
+				</div>
+					</div>
+	</div>
+</div>
+						<div class="footer__copyright_menu">
+			<div class="footer__sidebars-inner penci-container-fluid penci_bottom-sub penci_has_copyright">
+			<div class="site-info">
+				Copyright ©2019-2021 Tech Incent. All Right Reserved.			</div><!-- .site-info -->
+					</div>
+	</div>	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<aside class="mobile-sidebar ">
+
+			<div id="sidebar-nav-logo">
+								<a href="https://techincent.com/" class="custom-logo-link" rel="home"><img width="230" height="35" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20230%2035'%3E%3C/svg%3E" class="custom-logo" alt="tehcincent" decoding="async" loading="lazy" data-lazy-src="https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png" /><noscript><img width="230" height="35" src="https://techincent.com/wp-content/uploads/2019/10/tehcincent-logo.png" class="custom-logo" alt="tehcincent" decoding="async" loading="lazy" /></noscript></a>						</div>
+				<div class="header-social sidebar-nav-social">
+			<div class="inner-header-social">
+				<a class="social-media-item socail_media__facebook" target="_blank" href="https://www.facebook.com/techincentblog" title="Facebook" rel="noopener"><span class="socail-media-item__content"><i class="fa fa-facebook"></i><span class="social_title screen-reader-text">Facebook</span></span></a><a class="social-media-item socail_media__pinterest" target="_blank" href="https://www.pinterest.com/techincent/" title="Pinterest" rel="noopener"><span class="socail-media-item__content"><i class="fa fa-pinterest"></i><span class="social_title screen-reader-text">Pinterest</span></span></a><a class="social-media-item socail_media__linkedin" target="_blank" href="https://linkedin.com/company/techincent" title="Linkedin" rel="noopener"><span class="socail-media-item__content"><i class="fa fa-linkedin"></i><span class="social_title screen-reader-text">Linkedin</span></span></a><a class="social-media-item socail_media__youtube" target="_blank" href="https://www.youtube.com/channel/UCMqaq76M34-GOXYic0Rbt7Q" title="Youtube" rel="noopener"><span class="socail-media-item__content"><i class="fa fa-youtube-play"></i><span class="social_title screen-reader-text">Youtube</span></span></a>			</div>
+		</div>
+				<nav class="mobile-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+			<ul id="primary-menu-mobile" class="primary-menu-mobile"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5948"><a href="https://techincent.com/category/django/">Django</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6267"><a href="https://techincent.com/category/angular/">Angular</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5949"><a href="https://techincent.com/category/react/">React</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6657"><a href="https://techincent.com/category/javascript-snippets/">JavaScript Snippets</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5835"><a href="https://techincent.com/works/">Portfolio</a></li>
+</ul>		</nav>
+	</aside>
+<a id="close-sidebar-nav" class="header-1"><i class="fa fa-close"></i></a>
+	<a href="#" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script><script type="text/html" id="wpb-modifications"></script><link rel='stylesheet' id='js_composer_front-css' href='https://techincent.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.8.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_google_fonts_nunito-css' href='//fonts.googleapis.com/css?family=Nunito&#038;ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/techincent.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/penci-pennews-recipe/js/jquery.rateyo.min.js?ver=2.3' id='jquery-recipe-rateyo-js'></script>
+<script type='text/javascript' id='penci_rateyo-js-extra'>
+/* <![CDATA[ */
+var PENCI = {"ajaxUrl":"https:\/\/techincent.com\/wp-admin\/admin-ajax.php","nonce":"6a8a14fe63","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/penci-pennews-recipe/js/rating_recipe.js?ver=2.3.2' id='penci_rateyo-js'></script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/penci-pennews-review/js/jquery.easypiechart.min.js?ver=1.0' id='jquery-penci-piechart-js'></script>
+<script type='text/javascript' id='penci-rateyo-review-js-extra'>
+/* <![CDATA[ */
+var PENCI = {"postID":"7261","ajaxUrl":"https:\/\/techincent.com\/wp-admin\/admin-ajax.php","nonce":"6a8a14fe63","normalFill":"#b9b9b9","ratedFill":"#FFCA00"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/penci-pennews-review/js/rating_review.js?ver=3.0' id='penci-rateyo-review-js'></script>
+<script type='text/javascript' src='https://techincent.com/wp-content/themes/pennews/js/script.lib.min.js?ver=6.6.4' id='penci-script-lib-js'></script>
+<script type='text/javascript' id='penci-js-extra'>
+/* <![CDATA[ */
+var PENCILOCALIZE = {"ajaxUrl":"https:\/\/techincent.com\/wp-admin\/admin-ajax.php","nonce":"6a8a14fe63","errorMsg":"Something wrong happened. Please try again.","login":"Email Address","password":"Password","errorPass":"<p class=\"message message-error\">Password does not match the confirm password<\/p>","prevNumber":"1","minlengthSearch":"0","linkTitle":"View More","linkTextAll":"Menu","linkText":"More"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://techincent.com/wp-content/themes/pennews/js/script.min.js?ver=6.6.4' id='penci-js'></script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=3wiTfxkoMgE69Na' id='enlighterjs-js'></script>
+<script type='text/javascript' id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"scroll","linenumbers":true,"theme":"dracula","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='https://techincent.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.8.0' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' defer src='https://techincent.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.8.12' id='mc4wp-forms-api-js'></script>
+<script type="text/javascript">
+window.addEventListener("load", function(event) {
+jQuery(".cfx_form_main,.wpcf7-form,.wpforms-form,.gform_wrapper form").each(function(){
+var form=jQuery(this); 
+var screen_width=""; var screen_height="";
+ if(screen_width == ""){
+ if(screen){
+   screen_width=screen.width;  
+ }else{
+     screen_width=jQuery(window).width();
+ }    }  
+  if(screen_height == ""){
+ if(screen){
+   screen_height=screen.height;  
+ }else{
+     screen_height=jQuery(window).height();
+ }    }
+form.append('<input type="hidden" name="vx_width" value="'+screen_width+'">');
+form.append('<input type="hidden" name="vx_height" value="'+screen_height+'">');
+form.append('<input type="hidden" name="vx_url" value="'+window.location.href+'">');  
+}); 
+
+});
+</script> 
+<script>window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="https://techincent.com/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<div class="play"></div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script></body>
+</html>
+
+<!-- Page generated by LiteSpeed Cache 5.3 on 2022-12-13 18:10:45 -->
